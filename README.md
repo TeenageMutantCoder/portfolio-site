@@ -8,10 +8,10 @@ Website Link: Not yet available
 
 Here are my goals for this project:
 
-- [ ] Make a home page that has information about me and the skills I have
-- [ ] Make a page to showcase projects and link to their GitHub repository (include title, picture and brief description)
+- [x] Make a home page that has information about me and the skills I have
+- [x] Make a page to showcase projects and link to their GitHub repository (include title, picture and brief description)
 - [ ] Make a page with contact form that allows the user to send me an email (possibly include categories to describe purpose of contact)
-- [ ] Make a navigation bar that contains a title and/or logo and links to the website pages.
-- [ ] Make a footer that contains links to my socials and the pages of the website.
-- [ ] Make website easy to edit by making it fully modular (header and footer only written once, projects included dynamically through XML)
-- [ ] Add attractive, responsive styling to pages, navbar, and footer
+- [x] Make a navigation bar that contains a title and/or logo and links to the website pages.
+- [x] Make a footer that contains links to the pages of the website.
+- [x] Make website easy to edit by making it fully modular (header and footer only written once, projects included dynamically through XML)
+- [x] Add attractive, responsive styling to pages, navbar, and footer

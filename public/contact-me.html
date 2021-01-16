@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stevon Wright- Contact Me</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <header></header>
+
+    <main>
+        <h1 id="title">Contact Me</h1>
+
+        <div id="contact-form">
+            <form action="mailto:stevon.wright.business@gmail.com" method="post" enctype="text/plain">
+                <label>Purpose of Contact:</label><br>
+                <input type="radio" id="business" name="purpose" value="business">
+                <label for="business">Business</label><br>
+                <input type="radio" id="suggestion" name="purpose" value="suggestion">
+                <label for="suggestion">Suggestion</label><br>
+                <input type="radio" id="report-a-bug" name="purpose" value="report-a-bug">
+                <label for="report-a-bug">Report a Bug</label><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" required><br>
+
+                <label for="message">Message:</label><br>
+                <input type="text" id="message" required><br><br>
+
+                <input type="submit" value="Send">
+                <input type="reset" value="Reset">
+            </form>
+        </div> <!-- #contact-form -->
+        
+        <div id="socials">
+            <a href="https://www.linkedin.com/in/stevon-wright/" target="_blank">LinkedIn</a>
+            <a href="https://github.com/TeenageMutantCoder" target="_blank">GitHub</a>
+            <a href="mailto:stevon.wright.business@gmail.com">Email</a>
+        </div> <!-- #socials -->
+    </main>
+
+    <footer></footer>
+
+    <script src="/scripts/common.js"></script>
+    <script src="/scripts/contact-me.js"></script>
+</body>
+</html>

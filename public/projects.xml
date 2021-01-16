@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<projects>
+    <project>
+        <title>Alarm Clock</title>
+        <description>A time-keeping software made in Python.</description>
+        <link>https://github.com/TeenageMutantCoder/Alarm-Clock</link>
+        <language>Python</language>
+        <image>#</image>
+    </project>
+
+    <project>
+        <title>Calculator</title>
+        <description>A simple calculator made in Python.</description>
+        <link>https://github.com/TeenageMutantCoder/Calculator-with-GUI</link>
+        <language>Python</language>
+        <image>#</image>
+    </project>
+
+    <project>
+        <title>Minesweeper</title>
+        <description>A clone of Minesweeper made in Python.</description>
+        <link>https://github.com/TeenageMutantCoder/Minesweeper</link>
+        <language>Python</language>
+        <image>#</image>
+    </project>
+
+    <project>
+        <title>Snake</title>
+        <description>A clone of Snake made in Python.</description>
+        <link>https://github.com/TeenageMutantCoder/Snake-Game</link>
+        <language>Python</language>
+        <image>#</image>
+    </project>
+
+    <project>
+        <title>Tic-Tac-Toe</title>
+        <description>A clone of Tic-Tac-Toe made in Python.</description>
+        <link>https://github.com/TeenageMutantCoder/Tic-Tac-Toe</link>
+        <language>Python</language>
+        <image>#</image>
+    </project>
+
+    <project>
+        <title>Flaskr</title>
+        <description>A blog site made in Python using the Flask tutorial.</description>
+        <link>https://github.com/TeenageMutantCoder/Flask-Tutorial</link>
+        <language>Python</language>
+        <image>#</image>
+    </project>
+
+    <project>
+        <title>Polls</title>
+        <description>A polls site made in Python using the Django tutorial.</description>
+        <link>https://github.com/TeenageMutantCoder/Django-Tutorial</link>
+        <language>Python</language>
+        <image>#</image>
+    </project>
+
+    <project>
+        <title>Tic-Tac-Toe</title>
+        <description>A Tic-Tac-Toe web application made in Javascript using the React JS tutorial.</description>
+        <link>https://github.com/TeenageMutantCoder/React-Tutorial</link>
+        <language>Javascript</language>
+        <image>#</image>
+    </project>
+</projects>

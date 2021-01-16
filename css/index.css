@@ -1,0 +1,62 @@
+span.skill {
+    float: left;
+    height: 150px;
+    text-align: center;
+    padding: 1%;
+    width: 20%;
+}
+
+div#certifications {
+    clear: both;
+}
+
+span.certification {
+    float: left;
+    text-align: center;
+    padding: 2%;
+    width: 25%;
+}
+
+/* Media queries */
+@media (min-width: 1782px) and (max-width: 2263px) {
+    span.certification {
+        width: 33.33%;
+    }
+}
+
+@media (max-width: 1303px) {
+    span.certification {
+        width: 33.33%
+    }
+}
+
+@media (min-width: 877px) and (max-width: 933px) {
+    span.certification {
+        width: 100%;
+    }
+}
+
+@media (min-width: 754px) and (max-width: 877px) {
+    span.certification {
+        width: 50%;
+    }
+}
+
+@media (max-width: 754px) {
+    span.skill{
+        width: 25%;
+    }
+
+    span.certification {
+        display: block;
+        float: none;
+        margin: 0 auto;
+        width: 100%;
+    }
+}
+
+@media (max-width: 510px) {
+    span.skill {
+        width: 33.33%;
+    }
+}
