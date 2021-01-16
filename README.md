@@ -25,4 +25,4 @@ Click this link to visit the website: link not yet available
 2. Clone the repository (using terminal or cmd, the command is `git clone https://github.com/TeenageMutantCoder/portfolio-site`).
 3. Change into the root of the reposiory directory using cmd or terminal using the command `cd portfolio-site`.
 4. While in the root directory of the repository, run the command `node server.js`.
-5. Once the server starts, open a browser and go to `127.0.0.1:3000` or `localhost:3000`.
+5. Once the server starts, open a browser and go to [127.0.0.1:3000](http://127.0.0.1:3000) or [localhost:3000](http://localhost:3000).
