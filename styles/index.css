@@ -1,0 +1,39 @@
+section#skills {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: space-evenly;
+}
+
+section#skills h2 {
+    grid-column: 1/-1;
+}
+
+section#certifications {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section#certifications h2 {
+    flex: 100%;
+}
+
+div.skill, div.certification{
+    text-align: center;
+}
+
+div.skill {
+    padding: 1%;
+}
+
+div.certification {
+    flex: 1;
+    padding: 2%;
+}
+
+/* Media queries */
+@media (max-width: 754px) {
+    div.certification {
+        display: block;
+        margin: 0 auto;
+    }
+}

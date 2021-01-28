@@ -10,5 +10,5 @@ function importHTML(source, destination) {
     });
 }
 
-importHTML("/public/common/navbar.html", header);
-importHTML("/public/common/footer.html", footer);
+importHTML("/common/navbar.html", header);
+importHTML("/common/footer.html", footer);

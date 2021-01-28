@@ -1,0 +1,66 @@
+{
+    "projects": [
+        {
+            "title": "About Sofware Development",
+            "description": "A website about software development made using Wordpress.",
+            "link": "https://aboutswe.wordpress.com",
+            "image": null
+        },
+
+        {
+            "title": "Alarm Clock",
+            "description": "A time-keeping software made in Python.",
+            "link": "https://github.com/TeenageMutantCoder/Alarm-Clock",
+            "image": null
+        },
+
+        {
+            "title": "Calculator",
+            "description": "A simple calculator made in Python.",
+            "link": "https://github.com/TeenageMutantCoder/Calculator-with-GUI",
+            "image": null
+        },
+
+        {
+            "title": "Minesweeper",
+            "description": "A clone of Minesweeper made in Python.",
+            "link": "https://github.com/TeenageMutantCoder/Minesweeper",
+            "image": null
+        },
+        
+        {
+            "title": "Snake",
+            "description": "A clone of Snake made in Python.",
+            "link": "https://github.com/TeenageMutantCoder/Snake-Game",
+            "image": null
+        },
+
+        {
+            "title": "Tic-Tac-Toe",
+            "description": "A clone of Tic-Tac-Toe made in Python.",
+            "link": "https://github.com/TeenageMutantCoder/Tic-Tac-Toe",
+            "image": null
+        },
+
+        {
+            "title": "Flaskr",
+            "description": "A blog site made in Python using the Flask tutorial.",
+            "link": "https://github.com/TeenageMutantCoder/Flask-Tutorial",
+            "image": null
+        },
+
+        {
+            "title": "Polls",
+            "description": "A polls site made in Python using the Django tutorial.",
+            "link": "https://github.com/TeenageMutantCoder/Django-Tutorial",
+            "image": null
+        },
+
+        {
+            "title": "Tic-Tac-Toe",
+            "description": "A Tic-Tac-Toe web application made in Javascript using the React JS tutorial.",
+            "link": "https://github.com/TeenageMutantCoder/React-Tutorial",
+            "image": null
+        }
+    ]
+}

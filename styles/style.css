@@ -14,45 +14,46 @@ h1, h2, p, a {
 }
 
 h1 {
-    font-size: 3em;
-    padding: 0.5em 0;
+    font-size: 3rem;
+    padding: 0.5rem 0;
 }
 
 h2 {
-    font-size: 2em;
-    padding: 0.3em 0;
+    font-size: 2rem;
+    padding: 0.3rem 0;
 }
 
 p {
-    font-size: 1.2em;
-    line-height: 1.3em;
+    font-size: 1.2rem;
+    line-height: 1.3rem;
 }
 
 header, footer {
+    align-items: center;
     background-color: black;
     color: white;
+    display: flex;
+    justify-content: space-between;
     padding: 1% 5%;
 }
 
 #navbar__logo {
-    font-size: 3em;
+    font-size: 3rem;
 }
 
 header nav li {
-    font-size: 2em;
-    height: 2em;
+    font-size: 2rem;
+    height: 2rem;
 }
 
-nav {
-    display: table;
-    float: right;
+nav ul {
+    display: flex;
+    justify-content: space-between;
 }
 
 nav li {
-    display: table-cell;
     list-style-type: none;
-    padding-left: 2em;
-    vertical-align: middle;
+    padding-left: 2rem;
     white-space: nowrap;
 }
 
@@ -62,50 +63,44 @@ nav a, header a:-webkit-any-link, footer a:-webkit-any-link { /* The links in th
 }
 
 footer {
-    clear: both;
-    font-size: 1.2em;
-    padding: 0 5%;
-}
-
-address {
-    display: inline;
+    font-size: 1.2rem;
 }
 
 @media (max-width: 1100px) {
     #navbar__logo {
-        font-size: 2em;
+        font-size: 2rem;
     }
 
     header ul li {
-        font-size: 1.5em;
+        font-size: 1.5rem;
     }
 }
 
 @media (max-width: 828px) {
     footer {
-        font-size: 1em;
+        font-size: 1rem;
     }
 }
 
 @media (max-width: 792px) {
     #navbar__logo {
-        font-size: 1.7em;
+        font-size: 1.7rem;
     }
 
     header nav li {
-        font-size: 1.2em;
+        font-size: 1.2rem;
     }
 }
 
 @media (max-width: 692px) {
     footer {
-        font-size: 0.9em;
+        font-size: 0.9rem;
     }
 }
 
 @media (max-width: 648px) {
     p {
-        font-size: 1.1em;
+        font-size: 1.1rem;
     }
 
     header {
@@ -114,11 +109,10 @@ address {
 
     nav {
         display: block;
-        float: none;
     }
 
     nav {
-        padding-top: 0.5em;
+        padding-top: 0.5rem;
     }
 
     nav li {
@@ -128,19 +122,19 @@ address {
 
     footer {
         text-align: center;
-        font-size: 1.5em;
+        font-size: 1.5rem;
     }
 }
 
 @media (max-width: 521px) {
     address {
-        font-size: 0.8em;
+        font-size: 0.8rem;
     }
 }
 
 @media (max-width: 417px) {
     address {
-        font-size: 0.7em;
+        font-size: 0.7rem;
     }
 }
 

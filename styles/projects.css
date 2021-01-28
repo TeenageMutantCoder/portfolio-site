@@ -1,0 +1,24 @@
+section#projects {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.project {
+    text-align: center;
+    overflow-y: auto;
+    padding: 1%;
+    margin: 1%;
+    padding-bottom: 2%;
+    width: 20%;
+}
+
+.project__description {
+    text-align: left;
+}
+
+@media (max-width: 500px) {
+    .project {
+        display: block;
+    }
+}
