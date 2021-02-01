@@ -14,42 +14,44 @@
 
     <main>
         <h1 id="title">Contact Me</h1>
-        <div id="container">
-            <div id="contact-form">
-                <form method="post" enctype="text/plain">
-                    <label>Purpose of Contact:</label><br>
-                    <input type="radio" id="business" name="purpose" value="business">
-                    <label for="business">Business</label><br>
-                    <input type="radio" id="suggestion" name="purpose" value="suggestion">
-                    <label for="suggestion">Suggestion</label><br>
-                    <input type="radio" id="report-a-bug" name="purpose" value="report-a-bug">
-                    <label for="report-a-bug">Report a Bug</label><br>
-    
-                    <label for="name">Name:</label><br>
-                    <input type="text" id="name"><br>
-    
-                    <label for="email">Email:</label><br>
-                    <input type="email" id="email"><br>
-    
-                    <label for="message">Message:</label><br>
-                    <textarea id="message" rows="5" cols="20" required></textarea><br><br>
-    
-                    <input type="submit" value="Send">
-                    <input type="reset" value="Reset">
-                </form>
-            </div> <!-- #contact-form -->
-            
-            <div id="socials">
-                <a href="https://www.linkedin.com/in/stevon-wright/" target="_blank">LinkedIn</a>
-                <a href="https://github.com/TeenageMutantCoder" target="_blank">GitHub</a>
-                <a href="mailto:stevon.wright.business@gmail.com">Email</a>
-            </div> <!-- #socials -->
-        </div> <!-- #container -->
+
+        <div id="socials">
+            <a href="https://www.linkedin.com/in/stevon-wright/" target="_blank">
+                <img class="svg" src="/images/contact-me/linkedin-icon.svg" alt="LinkedIn">
+            </a>
+            <a href="https://github.com/TeenageMutantCoder" target="_blank">
+                <img class="svg" src="/images/contact-me/github-icon.svg" alt="GitHub">
+            </a>
+            <a href="mailto:stevon.wright.business@gmail.com">
+                <img class="svg" src="/images/contact-me/email-icon.svg" alt="Email">
+            </a>
+        </div> <!-- #socials -->
+
+        <form method="post" enctype="text/plain">
+            <label>Purpose of Contact:</label><br>
+            <input class="radio" type="radio" id="business" name="purpose" value="business">
+            <label class="radio" for="business">Business</label><br>
+            <input class="radio" type="radio" id="suggestion" name="purpose" value="suggestion">
+            <label class="radio" for="suggestion">Suggestion</label><br>
+            <input class="radio" type="radio" id="report-a-bug" name="purpose" value="report-a-bug">
+            <label class="radio" for="report-a-bug">Report a Bug</label><br>
+
+            <label for="name">Name:</label><br>
+            <input class="text" type="text" id="name"><br>
+
+            <label for="email">Email:</label><br>
+            <input class="text" type="email" id="email"><br>
+
+            <label for="message">Message:</label><br>
+            <textarea class="text" id="message" required></textarea>
+
+            <button type="submit">Send</button>
+            <button type="reset">Reset</button>
+        </form>
     </main>
 
     <footer></footer>
 
     <script src="/scripts/common.js"></script>
-    <script src="/scripts/contact-me.js"></script>
 </body>
 </html>

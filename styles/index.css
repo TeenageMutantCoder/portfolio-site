@@ -1,11 +1,27 @@
 section#skills {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     justify-content: space-evenly;
 }
 
 section#skills h2 {
     grid-column: 1/-1;
+}
+
+div.skill, div.certification {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+img {
+    margin: 1rem 0;
+}
+
+img.svg {
+    width: 5rem;
+    height: 5rem;
 }
 
 section#certifications {
@@ -17,10 +33,6 @@ section#certifications h2 {
     flex: 100%;
 }
 
-div.skill, div.certification{
-    text-align: center;
-}
-
 div.skill {
     padding: 1%;
 }
@@ -30,10 +42,31 @@ div.certification {
     padding: 2%;
 }
 
+div.certification iframe, div.certification img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 0.3rem;
+}
+
+footer#credits {
+    display: block;
+    overflow-x: auto;
+}
+
+footer#credits p {
+    font-size: 1rem;
+    text-align: left;
+}
+
 /* Media queries */
-@media (max-width: 754px) {
-    div.certification {
-        display: block;
-        margin: 0 auto;
+@media (max-width: 768px) {
+    section#skills {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 376px) {
+    section#skills {
+        grid-template-columns: repeat(2, 1fr);
     }
 }

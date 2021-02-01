@@ -4,6 +4,14 @@
     padding: 0;
 }
 
+html {
+    min-height: 100%;
+}
+
+body {
+    min-height: 100%;
+}
+
 main {
     margin: 0 10%;
 }
@@ -24,8 +32,12 @@ h2 {
 }
 
 p {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     line-height: 1.3rem;
+}
+
+.open {
+    display: block;
 }
 
 header, footer {
@@ -37,8 +49,37 @@ header, footer {
     padding: 1% 5%;
 }
 
-#navbar__logo {
+header a:hover, footer a:hover {
+    text-decoration: underline;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header__logo {
     font-size: 3rem;
+}
+
+#header__hamburger {
+    display: none;
+    margin-top: 0.6rem;
+    padding: 0.1rem;
+}
+
+#header__hamburger span {
+    background-color: white;
+    border-radius: 1rem;
+    display: block;
+    height: 0.3rem;
+    margin-bottom: 0.5rem;
+    width: 2.3rem;
+}
+
+#header__hamburger span:nth-last-child() {
+    margin-bottom: 0;
 }
 
 header nav li {
@@ -66,80 +107,38 @@ footer {
     font-size: 1.2rem;
 }
 
-@media (max-width: 1100px) {
-    #navbar__logo {
-        font-size: 2rem;
-    }
-
-    header ul li {
-        font-size: 1.5rem;
-    }
-}
-
-@media (max-width: 828px) {
-    footer {
-        font-size: 1rem;
-    }
-}
-
-@media (max-width: 792px) {
-    #navbar__logo {
-        font-size: 1.7rem;
-    }
-
-    header nav li {
-        font-size: 1.2rem;
-    }
-}
-
-@media (max-width: 692px) {
-    footer {
-        font-size: 0.9rem;
-    }
-}
-
-@media (max-width: 648px) {
-    p {
-        font-size: 1.1rem;
-    }
-
-    header {
+/* Media Queries */
+@media (max-width: 769px) {
+    header, footer {
+        display: block;
         text-align: center;
     }
 
-    nav {
+    /* #header__hamburger {  
         display: block;
     }
 
-    nav {
-        padding-top: 0.5rem;
+    header nav {
+        display: none;
+    } */
+
+    header nav ul {
+        margin-top: 1.5rem;
     }
 
-    nav li {
+    nav ul li, footer address {
+        margin-bottom: 1.5rem;
+    }
+
+    nav ul {
         display: block;
+    }
+
+    nav ul li {
         padding: 0;
     }
 
     footer {
-        text-align: center;
         font-size: 1.5rem;
-    }
-}
-
-@media (max-width: 521px) {
-    address {
-        font-size: 0.8rem;
-    }
-}
-
-@media (max-width: 417px) {
-    address {
-        font-size: 0.7rem;
-    }
-}
-
-@media (max-width: 365px) {
-    address {
-        font-size: 0.9rem;
     }
 }
