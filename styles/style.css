@@ -36,10 +36,6 @@ p {
     line-height: 1.3rem;
 }
 
-.open {
-    display: block;
-}
-
 header, footer {
     align-items: center;
     background-color: black;
@@ -53,20 +49,28 @@ header a:hover, footer a:hover {
     text-decoration: underline;
 }
 
-header .container {
-    display: flex;
-    justify-content: space-between;
+header {
     align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 #header__logo {
     font-size: 3rem;
 }
 
+label.header__hamburger,
+input#menu-toggle {
+    display: none;
+}
+
+input#menu-toggle:checked ~ nav#header__menu {
+    display: block;
+}
+
 #header__hamburger {
     display: none;
-    margin-top: 0.6rem;
-    padding: 0.1rem;
 }
 
 #header__hamburger span {
@@ -78,13 +82,12 @@ header .container {
     width: 2.3rem;
 }
 
-#header__hamburger span:nth-last-child() {
+#header__hamburger span:last-child {
     margin-bottom: 0;
 }
 
 header nav li {
     font-size: 2rem;
-    height: 2rem;
 }
 
 nav ul {
@@ -98,7 +101,9 @@ nav li {
     white-space: nowrap;
 }
 
-nav a, header a:-webkit-any-link, footer a:-webkit-any-link { /* The links in the header and footer */
+nav a, 
+header a:-webkit-any-link, 
+footer a:-webkit-any-link { /* The links in the header and footer */
     color: white;
     text-decoration-line: none;
 }
@@ -108,25 +113,55 @@ footer {
 }
 
 /* Media Queries */
+
+@media (max-width: 1024px) {
+    #header__logo {
+        font-size: 2.2rem;
+    }
+
+    #header__menu li {
+        font-size: 1.5rem;
+    }
+
+    footer address {
+        font-size: 1rem;
+    }
+}
+
 @media (max-width: 769px) {
-    header, footer {
-        display: block;
+    header, 
+    footer {
         text-align: center;
     }
-
-    /* #header__hamburger {  
-        display: block;
+    
+    header {
+        position: relative;
     }
 
-    header nav {
+    #header__logo {
+        flex: 7;
+        font-size: 2.5rem;
+        /* text-align: left; */
+    }
+
+    #header__hamburger {
+        display: block;
+        position: absolute;
+        top: 1rem;
+        right: 3%;
+    }
+
+    header nav#header__menu {
         display: none;
-    } */
+        flex: 100%;
+    }
 
     header nav ul {
         margin-top: 1.5rem;
     }
 
-    nav ul li, footer address {
+    nav ul li, 
+    footer address {
         margin-bottom: 1.5rem;
     }
 
@@ -136,9 +171,25 @@ footer {
 
     nav ul li {
         padding: 0;
+
     }
 
     footer {
+        display: block;
         font-size: 1.5rem;
+    }
+    
+    footer address {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 425px) {
+    #header__logo {
+        font-size: 3.3rem;
+    }
+
+    #header__hamburger {
+        top: 3.7rem;
     }
 }

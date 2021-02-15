@@ -9,7 +9,10 @@ img.svg {
     margin: 1rem;
     width: 3rem;
 }
-form, input.text, textarea {
+
+form, 
+input.text, 
+textarea {
     font-size: 1.4rem;
 }
 
@@ -19,7 +22,8 @@ form {
     width: 50%;
 }
 
-input, textarea {
+input, 
+textarea {
     width: 100%;
 }
 
@@ -27,12 +31,14 @@ input {
     line-height: 1.5rem;
 }
 
-input.radio, label.radio {
+input.radio, 
+label.radio {
     cursor: pointer;
     width: auto;
 }
 
-input.text, textarea {
+input.text, 
+textarea {
     padding: 0.1rem 0;
 }
 
