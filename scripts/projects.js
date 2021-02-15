@@ -6,7 +6,7 @@ let projectDescription = projectTemplate.querySelector(".project__description");
 let projectLink = projectTemplate.querySelector(".project__link");
 
 function addProjects(projects) {
-    for (let i = 0; i < projects.length - 1; i++) {
+    for (let i = 0; i < projects.length; i++) {
         project = projects[i];
         fillTemplate(project);
         let tempElement = projectTemplate.cloneNode(true);
