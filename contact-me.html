@@ -27,14 +27,15 @@
             </a>
         </div> <!-- #socials -->
 
-        <form method="post" enctype="text/plain" name="contact-form" data-netlify="true">
-            <label>Purpose of Contact:</label><br>
-            <input class="radio" type="radio" id="business" name="purpose" value="business">
-            <label class="radio" for="business">Business</label><br>
-            <input class="radio" type="radio" id="suggestion" name="purpose" value="suggestion">
-            <label class="radio" for="suggestion">Suggestion</label><br>
-            <input class="radio" type="radio" id="report-a-bug" name="purpose" value="report-a-bug">
-            <label class="radio" for="report-a-bug">Report a Bug</label><br>
+        <form method="post" name="contact-form" data-netlify="true">
+            <label for="purpose">Purpose of Contact:</label><br>
+            <select name="purpose" id="purpose">
+                <option value="">--Please choose an option--</option>
+                <option value="business">Business</option>
+                <option value="suggestion">Suggestion</option>
+                <option value="report-a-bug">Report A Bug</option>
+                <option value="other">Other</option>
+            </select>
 
             <label for="name">Name:</label><br>
             <input class="text" type="text" id="name"><br>

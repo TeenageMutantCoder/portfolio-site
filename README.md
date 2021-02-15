@@ -4,7 +4,7 @@ My portfolio site I made in HTML/CSS/JS
 
 Hello, my name is Stevon Wright. At the time of writing this, January 2021, I am a high school senior. I have plans of going into the workforce as a professional software developer (not sure exactly what field, but most likely web development) once I gradutate. It is commonly recommended for every developer, especially if self-taught, to make their own website to showcase their skills and projects. This is why I am making this.
 
-Website Link [here](https://elastic-benz-29510c.netlify.app/)
+Website Link [here](https://stevon-wright.netlify.app/)
 
 Here are my goals for this project:
 
