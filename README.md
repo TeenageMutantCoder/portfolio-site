@@ -11,7 +11,7 @@ Here are my goals for this project:
 - [x] Make a home page that has information about me and the skills I have
 - [x] Make a page to showcase projects and link to their GitHub repository (include title, picture and brief description)
 - [x] Make a page with contact form that allows the user to send me an email (possibly include categories to describe purpose of contact)
-- [x] Make a navigation bar that contains a title and/or logo and links to the website pages.
-- [x] Make a footer that contains links to the pages of the website.
+- [x] Make a navigation bar that contains a title and/or logo and links to the website pages
+- [x] Make a footer that contains links to the pages of the website
 - [x] Make website easy to edit by making it fully modular (header and footer only written once, projects included dynamically through XML)
 - [x] Add attractive, responsive styling to pages, navbar, and footer
