@@ -4,14 +4,6 @@
     padding: 0;
 }
 
-html {
-    min-height: 100%;
-}
-
-body {
-    min-height: 100%;
-}
-
 main {
     margin: 0 10%;
 }
@@ -129,6 +121,10 @@ footer {
 }
 
 @media (max-width: 769px) {
+    h1 {
+        font-size: 2rem;
+    }
+
     header, 
     footer {
         text-align: center;

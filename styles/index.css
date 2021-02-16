@@ -50,6 +50,11 @@ div.certification img {
     margin-top: 0.3rem;
 }
 
+img#CIW-logo {
+    width: 10rem;
+    height: 15rem;
+}
+
 footer#credits {
     display: block;
     overflow-x: auto;

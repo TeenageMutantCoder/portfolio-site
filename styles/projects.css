@@ -17,11 +17,21 @@ section#projects {
     padding-bottom: 2%;
 }
 
+.project__image {
+    height: 14rem;
+}
+
 .project__description {
     text-align: left;
 }
 
 /* Media Queries */
+@media (min-width: 1440px) {
+    .project__image {
+        height: 18rem;
+    }
+}
+
 @media (max-width: 768px) {
     section#projects {
         grid-template-columns: repeat(2, 1fr);
