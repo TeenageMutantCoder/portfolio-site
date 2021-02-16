@@ -44,6 +44,11 @@ section#projects {
     width: 50%;
 }
 
+.project__link:hover {
+    background-color: #555555;
+    transition: background-color 0.2s ease-in;
+}
+
 /* Media Queries */
 @media (min-width: 1440px) {
     .project__image {
