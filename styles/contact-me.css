@@ -49,11 +49,7 @@ textarea {
     resize: vertical;
 }
 
-button {
-    background-color: black;
-    color: white;
-    display: block;
-    cursor: pointer;
+button#submit {
     font-size: 1.5rem;
     margin: 0.5rem auto;
     padding: 0.3rem 2rem;

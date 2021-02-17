@@ -8,6 +8,23 @@ main {
     margin: 0 10%;
 }
 
+.button {
+    background-color: black;
+    border-radius: 3rem;
+    color: white;
+    cursor: pointer;
+    display: block;
+    font-size: 1.2rem;
+    margin: 0 auto;
+    padding: 0.5rem 0;
+}
+
+.button:hover {
+    background-color: #666666;
+    text-decoration: underline;
+    transition: background-color 0.2s ease-in;
+}
+
 h1, h2, p, a {
     font-family: 'Roboto Mono', monospace;
     text-align: center;

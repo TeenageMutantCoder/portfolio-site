@@ -25,6 +25,7 @@ section#projects {
 
 .project__title {
     font-size: 1.5rem;
+    font-weight: bold;
 }
 
 .project__image {
@@ -36,17 +37,7 @@ section#projects {
 }
 
 .project__link {
-    background-color: black;
-    color: white;
-    font-size: 1.2rem;
-    margin: 0 auto;
-    padding: 0.5rem 0;
     width: 50%;
-}
-
-.project__link:hover {
-    background-color: #555555;
-    transition: background-color 0.2s ease-in;
 }
 
 /* Media Queries */
