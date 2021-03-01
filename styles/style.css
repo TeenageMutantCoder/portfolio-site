@@ -12,6 +12,7 @@ body {
 
 main {
     margin: 0 10%;
+    flex: 1;
 }
 
 .button {
@@ -130,7 +131,6 @@ footer a:-webkit-any-link:hover {
 
 footer {
     font-size: 1.2rem;
-    margin-top: auto;
 }
 
 /* Media Queries */
