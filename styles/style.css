@@ -24,12 +24,12 @@ main {
     font-size: 1.2rem;
     margin: 0 auto;
     padding: 0.5rem 0;
+    transition: background-color 0.2s ease-in;
 }
 
 .button:hover {
     background-color: #666666;
     text-decoration: underline;
-    transition: background-color 0.2s ease-in;
 }
 
 h1, h2, p, a {
