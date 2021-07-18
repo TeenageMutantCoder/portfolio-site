@@ -1,6 +1,13 @@
 {
     "projects": [
         {
+            "title": "Todo",
+            "description": "A mobile-friendly Todo web application with light/dark mode toggle and persistent storage.",
+            "link": "https://sw-todo.netlify.app",
+            "image": "https://github.com/TeenageMutantCoder/todo/blob/main/design/desktop-preview.jpg?raw=true"
+        },
+
+        {
             "title": "About Sofware Development",
             "description": "A website about software development made using Wordpress.",
             "link": "https://aboutswe.wordpress.com",
