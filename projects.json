@@ -1,6 +1,20 @@
 {
     "projects": [
         {
+            "title": "Todo",
+            "description": "A mobile-friendly Todo web application with light/dark mode toggle and persistent storage.",
+            "link": "https://sw-todo.netlify.app",
+            "image": "https://github.com/TeenageMutantCoder/todo/blob/main/design/desktop-preview.jpg?raw=true"
+        },
+
+        {
+            "title": "Orbital Sim",
+            "description": "A 3D N-Body simulation made using React and BabylonJS.",
+            "link": "https://github.com/TeenageMutantCoder/n-body-sim",
+            "image": "https://user-images.githubusercontent.com/19376473/120082249-db7a1700-c08f-11eb-8c7f-f920bb77781e.png"
+        },
+        
+        {
             "title": "About Sofware Development",
             "description": "A website about software development made using Wordpress.",
             "link": "https://aboutswe.wordpress.com",
@@ -33,13 +47,6 @@
             "description": "A clone of Minesweeper made in Python.",
             "link": "https://github.com/TeenageMutantCoder/Minesweeper",
             "image": "https://user-images.githubusercontent.com/19376473/107986289-c3c3ca80-6f99-11eb-9c20-ae69a3eb24fe.png"
-        },
-
-        {
-            "title": "Orbital Sim",
-            "description": "A 3D N-Body simulation implemented in a website made using React and BabylonJS.",
-            "link": "https://github.com/TeenageMutantCoder/n-body-sim",
-            "image": "https://user-images.githubusercontent.com/19376473/120082249-db7a1700-c08f-11eb-8c7f-f920bb77781e.png"
         },
 
         {
