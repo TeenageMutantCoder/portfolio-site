@@ -1,0 +1,23 @@
+@use "./common";
+
+.Hero {
+    @include common.padding-x;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+
+    h1 {
+        font-size: 15vw;
+
+        @media (min-width: 768px) {
+            font-size: 6rem;
+        }
+    }
+
+    p {
+        font-size: 8vw;
+
+        @media (min-width: 768px) {
+            font-size: 4rem;
+        }
+    }
+}

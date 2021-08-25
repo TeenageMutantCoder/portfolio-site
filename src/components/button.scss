@@ -1,0 +1,17 @@
+@use "./common";
+
+$btn-color-bg: lightgray;
+$btn-color-fg: black;
+
+.Button {
+    @include common.hover-transition;
+    background: $btn-color-bg;
+    border: 2px solid black;
+    color: $btn-color-fg;
+    cursor: pointer;
+    display: block;
+    font-weight: 700;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    text-decoration: none;
+}

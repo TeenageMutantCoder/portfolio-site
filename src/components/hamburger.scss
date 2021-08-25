@@ -1,0 +1,62 @@
+@use "sass:math";
+
+$transition-length: 0.3s;
+$hamburger-bg-color: none;
+$hamburger-fg-color: black;
+$hamburger-size: 2.2rem;
+$hamburger-padding: 0.3rem;
+$hamburger-bar-size: 0.2rem;
+$hamburger-bar-margin: math.div(
+    ($hamburger-size - ($hamburger-padding * 2) - ($hamburger-bar-size * 3)),
+    2
+);
+$hamburger-bar-translate: $hamburger-bar-margin + $hamburger-bar-size;
+
+.Hamburger {
+    @media (min-width: 768px) {
+        display: none;
+    }
+
+    background: $hamburger-bg-color;
+    cursor: pointer;
+    height: $hamburger-size;
+    margin-left: auto;
+    padding: $hamburger-padding;
+    width: $hamburger-size;
+    z-index: 1000;
+
+    .Hamburger__bar {
+        background: $hamburger-fg-color;
+        border-radius: 1rem;
+        display: block;
+        height: $hamburger-bar-size;
+        margin-bottom: $hamburger-bar-margin;
+        transform-origin: center;
+        transition: all $transition-length ease-in-out;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+}
+
+#Hamburger__checkbox {
+    display: none;
+
+    &:checked ~ .Hamburger .Hamburger__bar {
+        // First hamburger bar
+        &:first-child {
+            transform: translateY($hamburger-bar-translate) rotateZ(45deg);
+        }
+
+        // Second hamburger bar
+        &:nth-child(2) {
+            opacity: 0;
+        }
+
+        // Third hamburger bar
+        &:last-child {
+            transform: translateY(-$hamburger-bar-translate) rotateZ(-45deg);
+        }
+    }
+}
