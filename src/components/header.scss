@@ -1,0 +1,68 @@
+@use "./hamburger";
+@use "./common";
+
+$header-bg-color: white;
+$nav-link-font-size-sm: 15vw;
+$nav-link-font-size-md: 1.5rem;
+
+header {
+    @include common.padding-x;
+    @media (min-width: 768px) {
+        border-bottom: 1px solid black;
+    }
+
+    align-items: center;
+    display: flex;
+    height: 3rem;
+    left: 0;
+    position: sticky;
+    top: 0;
+    width: 100%;
+
+    nav {
+        @include common.padding-x;
+        @media (min-width: 768px) {
+            --nav-link-font-size: #{$nav-link-font-size-md};
+            align-items: center;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            opacity: 1;
+            padding: 0;
+            position: static;
+        }
+
+        --nav-link-font-size: #{$nav-link-font-size-sm};
+        background: $header-bg-color;
+        bottom: 0;
+        display: none;
+        flex: 1;
+        flex-direction: column;
+        height: 100%;
+        left: 0;
+        padding-top: hamburger.$hamburger-size;
+        position: fixed;
+        opacity: 0;
+        right: 0;
+        top: 0;
+        transition: opacity hamburger.$transition-length ease-in-out;
+        z-index: 10;
+
+        a {
+            @include common.hover-transition;
+            color: black;
+            display: block;
+            font-size: var(--nav-link-font-size);
+            text-decoration: none;
+
+            &.active {
+                text-decoration: underline;
+            }
+        }
+    }
+
+    #Hamburger__checkbox:checked ~ nav {
+        display: flex;
+        opacity: 1;
+    }
+}

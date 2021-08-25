@@ -1,0 +1,26 @@
+$pd-x-sm: 8px;
+$pd-x-md: 10vw;
+$pd-x-lg: 15vw;
+
+@mixin padding-x {
+    padding-left: $pd-x-sm;
+    padding-right: $pd-x-sm;
+
+    @media (min-width: 768px) {
+        padding-left: $pd-x-md;
+        padding-right: $pd-x-md;
+    }
+
+    @media (min-width: 1024px) {
+        padding-left: $pd-x-lg;
+        padding-right: $pd-x-lg;
+    }
+}
+
+@mixin hover-transition {
+    transition: opacity 0.3s ease-in-out;
+
+    &:hover {
+        opacity: 0.3;
+    }
+}

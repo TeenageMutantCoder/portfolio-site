@@ -1,0 +1,22 @@
+@use "./common";
+
+.ContactSection {
+    @include common.padding-x;
+    margin: 1rem 0;
+
+    .Socials {
+        text-align: center;
+    }
+
+    p {
+        width: fit-content;
+        margin: 1rem auto;
+        line-height: 1.5rem;
+    }
+
+    a {
+        @include common.hover-transition;
+        color: black;
+        text-decoration: none;
+    }
+}

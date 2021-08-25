@@ -1,0 +1,18 @@
+@use "./common.scss";
+
+$btn-color-bg: lightgray;
+$btn-color-fg: black;
+
+.Resume {
+    @include common.padding-x;
+
+    & > * {
+        margin-bottom: 1rem;
+    }
+
+    iframe[title="My Resume/CV"] {
+        border: none;
+        width: 100%;
+        height: 100vh;
+    }
+}

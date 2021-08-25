@@ -1,0 +1,23 @@
+@use "sass:math";
+@use "./common";
+
+$svg-size-sm: 15vw;
+$svg-size-md: 4rem;
+$svg-color: black;
+
+.Socials {
+    padding-top: 1rem;
+
+    svg {
+        @include common.hover-transition;
+        --svg-size: #{$svg-size-sm};
+        color: $svg-color;
+        height: var(--svg-size);
+        transition: all 0.5s ease-in-out;
+        width: var(--svg-size);
+
+        @media (min-width: 768px) {
+            --svg-size: #{$svg-size-md};
+        }
+    }
+}

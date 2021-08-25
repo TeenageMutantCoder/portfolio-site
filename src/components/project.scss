@@ -1,0 +1,53 @@
+$link-color-fg: black;
+$link-color-bg: rgb(180, 180, 180);
+$padding-x: 8px;
+
+.Project {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: $padding-x;
+    padding-right: $padding-x;
+
+    & > * {
+        margin-bottom: 1rem;
+    }
+
+    .Project__title {
+        margin-top: 0.5rem;
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .Project__image {
+        object-fit: contain;
+        width: 100%;
+        max-height: 50vh;
+    }
+
+    .Project__tech-list {
+        font-size: 1.1rem;
+        font-style: italic;
+    }
+
+    .Project__description {
+        font-size: 1.3rem;
+    }
+
+    .Project__links {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+
+        .Button {
+            width: 40%;
+            // Makes empty links invisible
+            // (necessary for consistent placement of repo/website links)
+            &:not([href]) {
+                opacity: 0;
+            }
+        }
+    }
+}
