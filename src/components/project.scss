@@ -47,6 +47,7 @@ $padding-x: 8px;
             // (necessary for consistent placement of repo/website links)
             &:not([href]) {
                 opacity: 0;
+                z-index: -100000;
             }
         }
     }
