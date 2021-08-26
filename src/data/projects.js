@@ -3,7 +3,7 @@ const projects = [
         title: "Todo",
         description:
             "A mobile-friendly Todo web application with light/dark mode toggle and persistent storage.",
-        techList: "HTML, CSS, Javascript (React)",
+        techList: "HTML, CSS, JavaScript (React)",
         links: {
             website: "https://sw-todo.netlify.app",
             repo: "https://github.com/TeenageMutantCoder/todo",
@@ -14,7 +14,7 @@ const projects = [
     {
         title: "Orbital Sim",
         description: "A 3D N-Body simulation made using React and BabylonJS.",
-        techList: "HTML, CSS, Javascript (React, BabylonJS)",
+        techList: "HTML, CSS, JavaScript (React, BabylonJS)",
         links: {
             website: "https://orbital-sim.netlify.app/",
             repo: "https://github.com/TeenageMutantCoder/n-body-sim",
@@ -23,7 +23,7 @@ const projects = [
     },
 
     {
-        title: "About Sofware Development",
+        title: "About Software Development",
         description:
             "A website about software development made using Wordpress.",
         techList: "Wordpress",
@@ -36,7 +36,7 @@ const projects = [
 
     {
         title: "Alarm Clock",
-        description: "A time-keeping software made in Python.",
+        description: "A time-keeping program made in Python.",
         techList: "Python (Tkinter, SQLite3)",
         links: {
             website: null,
@@ -101,7 +101,7 @@ const projects = [
     },
 
     {
-        title: "Tic-Tac-Toe",
+        title: "Tic-Tac-Toe (Python)",
         description: "A clone of Tic-Tac-Toe made in Python.",
         techList: "Python (Pygame)",
         links: {
@@ -112,10 +112,10 @@ const projects = [
     },
 
     {
-        title: "Tic-Tac-Toe (Pygame)",
+        title: "Tic-Tac-Toe (Web)",
         description:
-            "A Tic-Tac-Toe web application made in Javascript using the React JS tutorial.",
-        techList: "Python",
+            "A Tic-Tac-Toe web application made in JavaScript using the React JS tutorial.",
+        techList: "HTML, CSS, JavaScript (React)",
         links: {
             website: null,
             repo: "https://github.com/TeenageMutantCoder/React-Tutorial",
