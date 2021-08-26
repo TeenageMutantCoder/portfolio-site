@@ -50,10 +50,15 @@ header {
 
         a {
             @include common.hover-transition;
+            @media (min-width: 768px) {
+                margin-bottom: 0;
+            }
+
             color: black;
             display: block;
             font-size: var(--nav-link-font-size);
             text-decoration: none;
+            margin-bottom: 0.5rem;
 
             &.active {
                 text-decoration: underline;
