@@ -39,7 +39,7 @@ const sections = {
                 image: <Sass />,
             },
             {
-                title: "Javascript",
+                title: "JavaScript",
                 image: <Js />,
             },
             {
