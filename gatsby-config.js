@@ -1,7 +1,7 @@
 module.exports = {
     siteMetadata: {
         title: `Stevon Wright's Portfolio`,
-        description: `Stevon Wright's software developer portfolio website.`,
+        description: `Stevon Wright's software developer portfolio website. See my skills, projects, and ways to contact me.`,
         author: ``,
         siteUrl: `https://stevon-wright.netlify.app/`,
     },
