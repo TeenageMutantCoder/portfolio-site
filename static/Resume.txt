@@ -1,0 +1,29 @@
+﻿Stevon Wright
+Deltona, Florida 32738   Address icon 
+(386) 279-8877   Phone icon 
+stevon.wright.business@gmail.com   Email icon 
+https://stevon-wright.netlify.app   World Wide Web symbol 
+https://linkedin.com/in/stevon-wright   LinkedIn icon 
+https://github.com/TeenageMutantCoder   GitHub Logomark 
+
+
+Software Developer looking to enter the field. Has been creating projects and learning software development for about 2 years. Has strong programming fundamentals and the ability to learn independently. Can plan, read, write, and review code. A responsible worker who can communicate and work with a team virtually or face-to-face. Very proficient with computers. Native English speaker who can speak and write in Spanish with limited working capacity. Plays guitar and piano.
+Skills
+Languages and frameworks: HTML, CSS, JavaScript, React, C#, C/C++, Python, Django, Flask, SQL
+Tools and IDEs: Git, GitHub, Visual Studio, Visual Studio Code, Atom, Adobe Photoshop
+Operating Systems: Microsoft Windows, Linux, Android
+Projects
+Todo - https://sw-todo.netlify.app/
+A responsive to-do list application with light/dark mode toggle, drag-and-drop, and persistent storage. Built based on mock-up design specifications from Front End Mentor. Built with React.
+N-Body Simulation - https://orbital-sim.netlify.app/
+A three-dimensional N-body simulation built with React, React Router, and BabylonJS.
+Alarm Clock - https://github.com/TeenageMutantCoder/Alarm-Clock/
+A GUI program written in Python with user-created alarms, a stopwatch, a digital clock, and a timer.
+Education
+June 2021
+High School Diploma/Pine Ridge High School, Deltona, Florida
+Graduated with highest honors (summa cum laude) and a cumulative GPA of 4.5. Succeeded in high-level classes, turning in quality work on time. Was a member of the Cambridge AICE program, fulfilling requirements for both the standard diploma and the Cambridge AICE diploma. Earned various awards.
+Experience
+2019 – present
+Software Developer/Self-employed
+Planned, developed, and deployed front-end applications in more than 2 programming languages. Performed code reviews for 15 new and aspiring software developers online. Researched and fixed more than 100 software bugs. Played an integral part in all parts of the software development life cycle.
