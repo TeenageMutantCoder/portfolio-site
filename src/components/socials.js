@@ -13,6 +13,7 @@ const Socials = () => {
                 rel="noopener noreferrer"
             >
                 <Email />
+                <span className="visible-hidden">Email</span>
             </a>
             <a
                 href="https://github.com/TeenageMutantCoder"
@@ -20,6 +21,7 @@ const Socials = () => {
                 rel="noopener noreferrer"
             >
                 <GitHub />
+                <span className="visible-hidden">GitHub</span>
             </a>
             <a
                 href="https://www.linkedin.com/in/stevon-wright/"
@@ -27,6 +29,7 @@ const Socials = () => {
                 rel="noopener noreferrer"
             >
                 <LinkedIn />
+                <span className="visible-hidden">LinkedIn</span>
             </a>
         </div>
     );

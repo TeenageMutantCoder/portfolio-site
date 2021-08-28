@@ -23,6 +23,7 @@ $padding-x: 8px;
     .Project__image {
         object-fit: contain;
         width: 100%;
+        height: auto;
         max-height: 50vh;
     }
 
@@ -45,7 +46,7 @@ $padding-x: 8px;
             width: 45%;
             // Makes empty links invisible
             // (necessary for consistent placement of repo/website links)
-            &:not([href]) {
+            &[href="#"] {
                 opacity: 0;
                 z-index: -100000;
             }
