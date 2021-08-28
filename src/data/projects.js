@@ -1,3 +1,15 @@
+import todo from "../images/projects/Todo.jpg";
+import orbitalSim from "../images/projects/OrbitalSim.jpg";
+import aboutSoftwareDevelopment from "../images/projects/AboutSoftwareDevelopment.jpg";
+import alarmClock from "../images/projects/AlarmClock.jpg";
+import calculator from "../images/projects/Calculator.jpg";
+import flaskr from "../images/projects/Flaskr.jpg";
+import minesweeper from "../images/projects/Minesweeper.jpg";
+import polls from "../images/projects/Polls.jpg";
+import snake from "../images/projects/Snake.jpg";
+import ticTacToeWeb from "../images/projects/TicTacToeWeb.jpg";
+import ticTacToePython from "../images/projects/TicTacToePython.jpg";
+
 const projects = [
     {
         title: "Todo",
@@ -8,7 +20,7 @@ const projects = [
             website: "https://sw-todo.netlify.app",
             repo: "https://github.com/TeenageMutantCoder/todo",
         },
-        image: "https://github.com/TeenageMutantCoder/todo/blob/main/design/desktop-preview.jpg?raw=true",
+        image: todo,
     },
 
     {
@@ -19,7 +31,7 @@ const projects = [
             website: "https://orbital-sim.netlify.app/",
             repo: "https://github.com/TeenageMutantCoder/n-body-sim",
         },
-        image: "https://user-images.githubusercontent.com/19376473/120082249-db7a1700-c08f-11eb-8c7f-f920bb77781e.png",
+        image: orbitalSim,
     },
 
     {
@@ -31,7 +43,7 @@ const projects = [
             website: "https://aboutswe.wordpress.com",
             repo: null,
         },
-        image: "https://user-images.githubusercontent.com/19376473/107986426-05ed0c00-6f9a-11eb-9b58-c1b422dfb1e7.png",
+        image: aboutSoftwareDevelopment,
     },
 
     {
@@ -42,7 +54,7 @@ const projects = [
             website: null,
             repo: "https://github.com/TeenageMutantCoder/Alarm-Clock",
         },
-        image: "https://user-images.githubusercontent.com/19376473/89493722-c93a8f80-d782-11ea-9c1f-f29d668a00fa.png",
+        image: alarmClock,
     },
 
     {
@@ -53,7 +65,7 @@ const projects = [
             website: null,
             repo: "https://github.com/TeenageMutantCoder/Calculator-with-GUI",
         },
-        image: "https://user-images.githubusercontent.com/19376473/89699237-a976a900-d8f3-11ea-91a1-61fd3d3c8857.png",
+        image: calculator,
     },
 
     {
@@ -64,7 +76,7 @@ const projects = [
             website: null,
             repo: "https://github.com/TeenageMutantCoder/Flask-Tutorial",
         },
-        image: "https://user-images.githubusercontent.com/19376473/107986023-37190c80-6f99-11eb-9385-d37725b3ccb4.png",
+        image: flaskr,
     },
 
     {
@@ -75,7 +87,7 @@ const projects = [
             website: null,
             repo: "https://github.com/TeenageMutantCoder/Minesweeper",
         },
-        image: "https://user-images.githubusercontent.com/19376473/107986289-c3c3ca80-6f99-11eb-9c20-ae69a3eb24fe.png",
+        image: minesweeper,
     },
 
     {
@@ -86,7 +98,7 @@ const projects = [
             website: null,
             repo: "https://github.com/TeenageMutantCoder/Django-Tutorial",
         },
-        image: "https://user-images.githubusercontent.com/19376473/107989430-4a7ba600-6fa0-11eb-9792-843159caaefc.png",
+        image: polls,
     },
 
     {
@@ -97,7 +109,7 @@ const projects = [
             website: null,
             repo: "https://github.com/TeenageMutantCoder/Snake-Game",
         },
-        image: "https://user-images.githubusercontent.com/19376473/107986269-b3135480-6f99-11eb-982d-5feb65e31f34.png",
+        image: snake,
     },
 
     {
@@ -108,7 +120,7 @@ const projects = [
             website: null,
             repo: "https://github.com/TeenageMutantCoder/Tic-Tac-Toe",
         },
-        image: "https://user-images.githubusercontent.com/19376473/107986203-9119d200-6f99-11eb-9723-75173afec9cb.png",
+        image: ticTacToePython,
     },
 
     {
@@ -120,7 +132,7 @@ const projects = [
             website: null,
             repo: "https://github.com/TeenageMutantCoder/React-Tutorial",
         },
-        image: "https://user-images.githubusercontent.com/19376473/107985918-09cc5e80-6f99-11eb-99a3-4edb0ca389fa.png",
+        image: ticTacToeWeb,
     },
 ];
 
