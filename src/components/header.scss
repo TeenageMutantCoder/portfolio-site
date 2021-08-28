@@ -4,6 +4,7 @@
 $header-bg-color: white;
 $nav-link-font-size-sm: 15vw;
 $nav-link-font-size-md: 1.5rem;
+$header-height: 5rem;
 
 header {
     @include common.padding-x;
@@ -13,7 +14,7 @@ header {
 
     align-items: center;
     display: flex;
-    height: 5rem;
+    height: $header-height;
     left: 0;
     position: sticky;
     top: 0;
@@ -40,7 +41,7 @@ header {
         flex-direction: column;
         height: 100%;
         left: 0;
-        padding-top: hamburger.$hamburger-size;
+        padding-top: $header-height;
         position: fixed;
         opacity: 0;
         right: 0;
