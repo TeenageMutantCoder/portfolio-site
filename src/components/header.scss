@@ -58,8 +58,9 @@ header {
             color: black;
             display: block;
             font-size: var(--nav-link-font-size);
-            text-decoration: none;
             margin-bottom: 2rem;
+            padding: 1rem;
+            text-decoration: none;
 
             &.active {
                 text-decoration: underline;
