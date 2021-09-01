@@ -9,7 +9,7 @@ https://github.com/TeenageMutantCoder   GitHub Logomark
 
 Software Developer looking to enter the field. Has been creating projects and learning software development for about 2 years. Has strong programming fundamentals and the ability to learn independently. Can plan, read, write, and review code. A responsible worker who can communicate and work with a team virtually or face-to-face. Very proficient with computers. Native English speaker who can speak and write in Spanish with limited working capacity. Plays guitar and piano.
 Skills
-Languages and frameworks: HTML, CSS, JavaScript, React, C#, C/C++, Python, Django, Flask, SQL
+Languages and frameworks: HTML, CSS, SCSS, JavaScript, React, C++, Python, SQL
 Tools and IDEs: Git, GitHub, Visual Studio, Visual Studio Code, Atom, Adobe Photoshop
 Operating Systems: Microsoft Windows, Linux, Android
 Projects
