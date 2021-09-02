@@ -8,6 +8,7 @@ import { SiReact as ReactLogo } from "@react-icons/all-files/si/SiReact";
 import { SiGatsby as Gatsby } from "@react-icons/all-files/si/SiGatsby";
 import { SiCplusplus as Cpp } from "@react-icons/all-files/si/SiCplusplus";
 import { SiMysql as MySql } from "@react-icons/all-files/si/SiMysql";
+import { DiSqllite as SqLite3 } from "@react-icons/all-files/di/DiSqllite";
 import { DiGit as Git } from "@react-icons/all-files/di/DiGit";
 import { AiFillGithub as GitHub } from "@react-icons/all-files/ai/AiFillGithub";
 
@@ -58,6 +59,10 @@ const sections = {
             {
                 title: "MySQL",
                 image: <MySql />,
+            },
+            {
+                title: "SQLite3",
+                image: <SqLite3 />,
             },
             {
                 title: "Git",
