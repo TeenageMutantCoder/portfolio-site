@@ -69,7 +69,8 @@ const projects = [
 
     {
         title: "Minesweeper",
-        description: "A clone of Minesweeper made in Python.",
+        description:
+            "A clone of Minesweeper made in Python. Has multiple board sizes and difficulty settings.",
         techList: "Python (Pygame, Tkinter)",
         links: {
             website: null,
