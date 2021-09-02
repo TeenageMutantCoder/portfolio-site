@@ -3,11 +3,8 @@ import orbitalSim from "../images/projects/OrbitalSim.jpg";
 import aboutSoftwareDevelopment from "../images/projects/AboutSoftwareDevelopment.jpg";
 import alarmClock from "../images/projects/AlarmClock.jpg";
 import calculator from "../images/projects/Calculator.jpg";
-import flaskr from "../images/projects/Flaskr.jpg";
 import minesweeper from "../images/projects/Minesweeper.jpg";
-import polls from "../images/projects/Polls.jpg";
 import snake from "../images/projects/Snake.jpg";
-import ticTacToeWeb from "../images/projects/TicTacToeWeb.jpg";
 import ticTacToePython from "../images/projects/TicTacToePython.jpg";
 
 const projects = [
@@ -58,25 +55,14 @@ const projects = [
     },
 
     {
-        title: "Calculator",
-        description: "A simple calculator made in Python.",
-        techList: "Python (Tkinter)",
+        title: "Snake",
+        description: "A clone of Snake made in Python.",
+        techList: "Python (Pygame, SQLite3)",
         links: {
             website: null,
-            repo: "https://github.com/TeenageMutantCoder/Calculator-with-GUI",
+            repo: "https://github.com/TeenageMutantCoder/Snake-Game",
         },
-        image: calculator,
-    },
-
-    {
-        title: "Flaskr",
-        description: "A blog site made in Python using the Flask tutorial.",
-        techList: "HTML, CSS, Python (Flask)",
-        links: {
-            website: null,
-            repo: "https://github.com/TeenageMutantCoder/Flask-Tutorial",
-        },
-        image: flaskr,
+        image: snake,
     },
 
     {
@@ -91,28 +77,6 @@ const projects = [
     },
 
     {
-        title: "Polls",
-        description: "A polls site made in Python using the Django tutorial.",
-        techList: "HTML, CSS, Python (Django)",
-        links: {
-            website: null,
-            repo: "https://github.com/TeenageMutantCoder/Django-Tutorial",
-        },
-        image: polls,
-    },
-
-    {
-        title: "Snake",
-        description: "A clone of Snake made in Python.",
-        techList: "Python (Pygame, SQLite3)",
-        links: {
-            website: null,
-            repo: "https://github.com/TeenageMutantCoder/Snake-Game",
-        },
-        image: snake,
-    },
-
-    {
         title: "Tic-Tac-Toe (Python)",
         description: "A clone of Tic-Tac-Toe made in Python.",
         techList: "Python (Pygame)",
@@ -124,15 +88,14 @@ const projects = [
     },
 
     {
-        title: "Tic-Tac-Toe (Web)",
-        description:
-            "A Tic-Tac-Toe web application made in JavaScript using the React JS tutorial.",
-        techList: "HTML, CSS, JavaScript (React)",
+        title: "Calculator",
+        description: "A simple calculator made in Python.",
+        techList: "Python (Tkinter)",
         links: {
             website: null,
-            repo: "https://github.com/TeenageMutantCoder/React-Tutorial",
+            repo: "https://github.com/TeenageMutantCoder/Calculator-with-GUI",
         },
-        image: ticTacToeWeb,
+        image: calculator,
     },
 ];
 
