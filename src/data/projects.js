@@ -77,7 +77,7 @@ const projects = [
     },
 
     {
-        title: "Tic-Tac-Toe (Python)",
+        title: "Tic-Tac-Toe",
         description: "A clone of Tic-Tac-Toe made in Python.",
         techList: "Python (Pygame)",
         links: {
