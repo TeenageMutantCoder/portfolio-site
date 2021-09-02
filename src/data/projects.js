@@ -11,7 +11,7 @@ const projects = [
     {
         title: "Todo",
         description:
-            "A mobile-friendly Todo web application with light/dark mode toggle and persistent storage.",
+            "A mobile-friendly Todo web application with light/dark mode toggle and persistent storage. User can drag-and-drop todo items to change their order and placement.",
         techList: "HTML, CSS, JavaScript (React)",
         links: {
             website: "https://sw-todo.netlify.app",
@@ -45,7 +45,8 @@ const projects = [
 
     {
         title: "Alarm Clock",
-        description: "A time-keeping program made in Python.",
+        description:
+            "A time-keeping program made in Python. Has user-created alarms that are saved in a database, a stopwatch, timer, and a digital clock that states the local time.",
         techList: "Python (Tkinter, SQLite3)",
         links: {
             website: null,
@@ -56,7 +57,8 @@ const projects = [
 
     {
         title: "Snake",
-        description: "A clone of Snake made in Python.",
+        description:
+            "A clone of Snake made in Python. Saves the highest score in a database.",
         techList: "Python (Pygame, SQLite3)",
         links: {
             website: null,
