@@ -6,10 +6,7 @@ import { SiJavascript as Js } from "@react-icons/all-files/si/SiJavascript";
 import { SiPython as Python } from "@react-icons/all-files/si/SiPython";
 import { SiReact as ReactLogo } from "@react-icons/all-files/si/SiReact";
 import { SiGatsby as Gatsby } from "@react-icons/all-files/si/SiGatsby";
-import { SiFlask as Flask } from "@react-icons/all-files/si/SiFlask";
-import { SiDjango as Django } from "@react-icons/all-files/si/SiDjango";
 import { SiCplusplus as Cpp } from "@react-icons/all-files/si/SiCplusplus";
-import { SiCsharp as Cs } from "@react-icons/all-files/si/SiCsharp";
 import { SiMysql as MySql } from "@react-icons/all-files/si/SiMysql";
 import { DiGit as Git } from "@react-icons/all-files/di/DiGit";
 import { AiFillGithub as GitHub } from "@react-icons/all-files/ai/AiFillGithub";
@@ -35,7 +32,7 @@ const sections = {
                 image: <Css />,
             },
             {
-                title: "Sass",
+                title: "SASS/SCSS",
                 image: <Sass />,
             },
             {
@@ -55,20 +52,8 @@ const sections = {
                 image: <Gatsby />,
             },
             {
-                title: "Flask",
-                image: <Flask />,
-            },
-            {
-                title: "Django",
-                image: <Django />,
-            },
-            {
                 title: "C++",
                 image: <Cpp />,
-            },
-            {
-                title: "C#",
-                image: <Cs />,
             },
             {
                 title: "MySQL",
