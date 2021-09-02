@@ -41,9 +41,12 @@ header {
         flex-direction: column;
         height: 100%;
         left: 0;
-        padding-top: $header-height;
-        position: fixed;
+        justify-content: space-evenly;
         opacity: 0;
+        padding-top: $header-height;
+        padding-left: 0;
+        padding-right: 0;
+        position: fixed;
         right: 0;
         top: 0;
         transition: opacity hamburger.$transition-length ease-in-out;
@@ -58,7 +61,6 @@ header {
             color: black;
             display: block;
             font-size: var(--nav-link-font-size);
-            margin-bottom: 2rem;
             padding: 1rem;
             text-decoration: none;
 
