@@ -19,7 +19,7 @@ const sections = {
     },
     skills: {
         title: "Skills",
-        text: "My expertise lies primarily in front-end web development, although I have some experience in full-stack web development and desktop application development. I generally prefer web development because of the ease of UI creation, software distribution, and deployment. Because of my strong grasp of programming fundamentals, I am able to quickly learn whatever technology I need for a project. Some of my specific skills include:",
+        text: "My expertise lies primarily in front-end web development, although I have some experience in full-stack web development and desktop application development. I generally prefer web development because of the ease of UI creation, software distribution, and deployment. Because of my strong grasp of programming fundamentals, I am able to quickly learn whatever technology I need for a project. Some of my current skills include:",
     },
     skillsIcons: {
         title: "",
@@ -33,7 +33,7 @@ const sections = {
                 image: <Css />,
             },
             {
-                title: "SASS/SCSS",
+                title: "SASS",
                 image: <Sass />,
             },
             {
