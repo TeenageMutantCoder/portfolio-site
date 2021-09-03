@@ -1,3 +1,4 @@
+import portfolioSite from "../images/projects/PortfolioSite.jpg";
 import todo from "../images/projects/Todo.jpg";
 import orbitalSim from "../images/projects/OrbitalSim.jpg";
 import aboutSoftwareDevelopment from "../images/projects/AboutSoftwareDevelopment.jpg";
@@ -5,9 +6,20 @@ import alarmClock from "../images/projects/AlarmClock.jpg";
 import calculator from "../images/projects/Calculator.jpg";
 import minesweeper from "../images/projects/Minesweeper.jpg";
 import snake from "../images/projects/Snake.jpg";
-import ticTacToePython from "../images/projects/TicTacToePython.jpg";
+import ticTacToe from "../images/projects/TicTacToe.jpg";
 
 const projects = [
+    {
+        title: "Portfolio Site",
+        description:
+            "The website you are currently viewing was designed and made from scratch. I used Figma to make the designs (and to learn to use Figma).",
+        techList: "HTML, SASS/SCSS, JavaScript (React, Gatsby)",
+        links: {
+            website: "https://stevon-wright.netlify.app",
+            repo: "https://github.com/TeenageMutantCoder/portfolio-site",
+        },
+        image: portfolioSite,
+    },
     {
         title: "Todo",
         description:
@@ -87,7 +99,7 @@ const projects = [
             website: null,
             repo: "https://github.com/TeenageMutantCoder/Tic-Tac-Toe",
         },
-        image: ticTacToePython,
+        image: ticTacToe,
     },
 
     {
