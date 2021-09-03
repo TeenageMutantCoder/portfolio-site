@@ -1,6 +1,6 @@
 # Portfolio Site
 
-This is my software devlopment portfolio.
+This is my software development portfolio.
 
 ![Portfolio Website](./docs/images/PortfolioSite.jpg)
 
