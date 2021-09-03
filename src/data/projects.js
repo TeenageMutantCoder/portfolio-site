@@ -13,7 +13,7 @@ const projects = [
         title: "Portfolio Site",
         description:
             "The website you are currently viewing was designed and made from scratch. I used Figma to make the designs (and to learn to use Figma).",
-        techList: "HTML, SASS/SCSS, JavaScript (React, Gatsby)",
+        techList: "HTML/JSX, SASS, JavaScript (React, Gatsby)",
         links: {
             website: "https://stevon-wright.netlify.app",
             repo: "https://github.com/TeenageMutantCoder/portfolio-site",
@@ -24,7 +24,7 @@ const projects = [
         title: "Todo",
         description:
             "A mobile-friendly Todo web application with light/dark mode toggle and persistent storage. User can drag-and-drop todo items to change their order and placement.",
-        techList: "HTML, CSS, JavaScript (React)",
+        techList: "HTML/JSX, CSS, JavaScript (React)",
         links: {
             website: "https://sw-todo.netlify.app",
             repo: "https://github.com/TeenageMutantCoder/todo",
@@ -35,7 +35,7 @@ const projects = [
     {
         title: "Orbital Sim",
         description: "A 3D N-Body simulation made using React and BabylonJS.",
-        techList: "HTML, CSS, JavaScript (React, BabylonJS)",
+        techList: "HTML/JSX, CSS, JavaScript (React, BabylonJS)",
         links: {
             website: "https://orbital-sim.netlify.app/",
             repo: "https://github.com/TeenageMutantCoder/n-body-sim",
