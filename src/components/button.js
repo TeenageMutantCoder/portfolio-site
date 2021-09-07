@@ -14,12 +14,12 @@ const Button = (props) => {
                     target={target}
                     rel={rel}
                 >
-                    {text}
+                    {text || props.children}
                 </a>
             )}
             {type !== "link" && (
                 <button type={type} onClick={onClick} className="Button">
-                    {text}
+                    {text || props.children}
                 </button>
             )}
         </>
