@@ -1,0 +1,26 @@
+@use "./common.scss";
+
+.FeaturedProjects {
+    @include common.padding-x;
+    margin-bottom: 3rem;
+
+    h2 {
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .Projects {
+        padding-left: 0;
+        padding-right: 0;
+
+        .Project {
+            .Project__title {
+                font-size: 1.5rem;
+            }
+        }
+    }
+
+    & > .Button {
+        width: 100%;
+    }
+}

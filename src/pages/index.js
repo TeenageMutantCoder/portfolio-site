@@ -5,6 +5,7 @@ import Seo from "../components/seo";
 import Hero from "../components/hero";
 import TextSection from "../components/textSection";
 import ImageSection from "../components/imageSection";
+import FeaturedProjects from "../components/featuredProjects";
 
 import sections from "../data/index";
 
@@ -15,6 +16,7 @@ const IndexPage = () => (
         <TextSection data={sections.aboutMe} />
         <TextSection data={sections.skills} />
         <ImageSection data={sections.skillsIcons} />
+        <FeaturedProjects />
     </Layout>
 );
 

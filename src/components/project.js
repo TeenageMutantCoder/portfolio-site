@@ -4,12 +4,17 @@ import Button from "./button";
 import "./project.scss";
 
 const Project = (props) => {
-    const { data, image, loading } = props;
+    const { data, image, loading, heading = "h2" } = props;
     const { title, techList, description, links } = data;
+    const projectTitle = React.createElement(
+        heading,
+        { className: "Project__title" },
+        title
+    );
     const projectImage = getImage(image);
     return (
         <div className="Project">
-            <h2 className="Project__title">{title}</h2>
+            {projectTitle}
             <GatsbyImage
                 className="Project__image"
                 loading={loading}
