@@ -15,16 +15,16 @@ $padding-x: 8px;
     }
 
     .Project__title {
-        margin-top: 0.5rem;
         font-size: 2rem;
+        margin-top: 0.5rem;
         text-align: center;
     }
 
     .Project__image {
-        object-fit: contain;
-        width: 100%;
         height: auto;
         max-height: 50vh;
+        width: 100%;
+        z-index: -1;
     }
 
     .Project__tech-list {

@@ -1,20 +1,23 @@
 import React from "react";
+import { GatsbyImage, getImage } from "gatsby-plugin-image";
 import Button from "./button";
 import "./project.scss";
 
 const Project = (props) => {
-    const { data } = props;
-    const { title, image, techList, description, links } = data;
+    const { data, image, loading } = props;
+    const { title, techList, description, links } = data;
+    const projectImage = getImage(image);
     return (
         <div className="Project">
             <h2 className="Project__title">{title}</h2>
-            <img
+            <GatsbyImage
                 className="Project__image"
-                src={image}
+                loading={loading}
+                image={projectImage}
+                objectFit="contain"
                 alt={title}
-                width="300"
-                height="300"
             />
+
             <p className="Project__tech-list">Skills used: {techList}</p>
             <p className="Project__description">{description}</p>
             <div className="Project__links">
