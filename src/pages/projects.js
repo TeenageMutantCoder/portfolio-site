@@ -4,7 +4,7 @@ import Layout from "../components/layout";
 import Seo from "../components/seo";
 import ProjectsSection from "../components/projects";
 
-const Projects = () => {
+const ProjectsPage = () => {
     return (
         <Layout>
             <Seo title="Projects" />
@@ -14,4 +14,4 @@ const Projects = () => {
     );
 };
 
-export default Projects;
+export default ProjectsPage;

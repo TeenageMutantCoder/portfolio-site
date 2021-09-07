@@ -4,7 +4,7 @@ import Layout from "../components/layout";
 import Seo from "../components/seo";
 import ResumeSection from "../components/resume";
 
-const Resume = () => (
+const ResumePage = () => (
     <Layout>
         <Seo title="Resume/CV" />
         <h1 className="title">Resume/CV</h1>
@@ -12,4 +12,4 @@ const Resume = () => (
     </Layout>
 );
 
-export default Resume;
+export default ResumePage;
