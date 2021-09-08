@@ -3,23 +3,20 @@ import { Link } from "gatsby";
 import Hamburger from "./hamburger";
 import "./header.scss";
 
-const Header = () => {
+const Header = ({ links }) => {
     return (
         <header>
             <Hamburger />
             <nav>
-                <Link to="/" activeClassName="active">
-                    Home
-                </Link>
-                <Link to="/projects/" activeClassName="active">
-                    Projects
-                </Link>
-                <Link to="/resume/" activeClassName="active">
-                    Resume/CV
-                </Link>
-                <Link to="/contact/" activeClassName="active">
-                    Contact
-                </Link>
+                {links.map((link) => (
+                    <Link
+                        key={link.name.replace(/\W/g, "")}
+                        to={link.path}
+                        activeClassName="active"
+                    >
+                        {link.name}
+                    </Link>
+                ))}
             </nav>
         </header>
     );
