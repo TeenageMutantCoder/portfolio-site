@@ -13,7 +13,6 @@ $svg-color: var(--svg-color);
         --svg-size: #{$svg-size-sm};
         color: $svg-color;
         height: var(--svg-size);
-        transition: all 0.5s ease-in-out;
         width: var(--svg-size);
 
         @media (min-width: 768px) {
