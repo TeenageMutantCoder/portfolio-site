@@ -7,6 +7,7 @@ module.exports = {
     },
     plugins: [
         `gatsby-plugin-sass`,
+        `gatsby-plugin-use-dark-mode`,
         `gatsby-plugin-react-helmet`,
         `gatsby-plugin-image`,
         {

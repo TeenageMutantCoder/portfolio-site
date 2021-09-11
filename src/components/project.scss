@@ -1,7 +1,7 @@
 $padding-x: 8px;
 
 .Project {
-    border: 1px solid black;
+    border: 1px solid var(--border-color);
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;

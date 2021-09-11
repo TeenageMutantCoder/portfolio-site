@@ -17,6 +17,35 @@ h6 {
     font-weight: bold;
 }
 
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+
+    &.light-mode {
+        --bg-color: white;
+        --header-bg-color: rgba(255, 255, 255, 0.7);
+        --text-color: black;
+        --border-color: black;
+        --button-bg-color: lightgray;
+        --button-fg-color: black;
+        --hamburger-color: black;
+        --link-color: black;
+        --svg-color: black;
+    }
+
+    &.dark-mode {
+        --bg-color: black;
+        --header-bg-color: rgba(0, 0, 0, 0.5);
+        --text-color: white;
+        --border-color: white;
+        --button-bg-color: white;
+        --button-fg-color: black;
+        --hamburger-color: white;
+        --link-color: white;
+        --svg-color: white;
+    }
+}
+
 .title {
     @include common.padding-x;
     @media (min-width: 768px) {
@@ -42,13 +71,13 @@ h6 {
             }
         }
         animation: 1.5s linear infinite spin;
-        border: 5px solid lightgrey;
-        border-bottom-color: black;
+        border: 5px solid var(--text-color);
+        border-bottom-color: var(--bg-color);
         border-radius: 50%;
         content: "";
         height: 4rem;
         left: 50%;
-        position: absolute;
+        position: fixed;
         top: 50%;
         visibility: visible;
         width: 4rem;

@@ -16,7 +16,7 @@
 
     a {
         @include common.hover-transition;
-        color: black;
+        color: var(--link-color);
         text-decoration: none;
     }
 }
