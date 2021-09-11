@@ -19,11 +19,42 @@ h6 {
 
 .title {
     @include common.padding-x;
-    font-size: 3.25rem;
-    margin-bottom: 1.5rem;
-
     @media (min-width: 768px) {
         margin-top: 3rem;
         text-align: center;
+    }
+
+    font-size: 3.25rem;
+    margin-bottom: 1.5rem;
+}
+
+.loading {
+    height: 100vh;
+    overflow: hidden;
+
+    &::before {
+        @keyframes spin {
+            from {
+                transform: translate(-50%, -50%) rotateZ(0deg);
+            }
+            to {
+                transform: translate(-50%, -50%) rotateZ(360deg);
+            }
+        }
+        animation: 1.5s linear infinite spin;
+        border: 5px solid lightgrey;
+        border-bottom-color: black;
+        border-radius: 50%;
+        content: "";
+        height: 4rem;
+        left: 50%;
+        position: absolute;
+        top: 50%;
+        visibility: visible;
+        width: 4rem;
+    }
+
+    main {
+        visibility: hidden;
     }
 }
