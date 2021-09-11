@@ -11,7 +11,7 @@ footer {
     }
 
     align-items: center;
-    border-top: 2px solid black;
+    border-top: 2px solid var(--border-color);
     display: flex;
     flex-direction: column;
     height: $footer-height-sm;
@@ -19,7 +19,7 @@ footer {
 
     a {
         @include common.hover-transition;
-        color: black;
+        color: var(--link-color);
         font-size: 2rem;
         padding: 0.5rem;
         text-align: center;

@@ -2,7 +2,7 @@
 
 $transition-length: 0.3s;
 $hamburger-bg-color: none;
-$hamburger-fg-color: black;
+$hamburger-fg-color: var(--hamburger-color);
 $hamburger-size: 2.5rem;
 $hamburger-padding: 0.3rem;
 $hamburger-bar-size: 0.2rem;

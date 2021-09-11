@@ -2,18 +2,20 @@ $pd-x-sm: 8px;
 $pd-x-md: 10vw;
 $pd-x-lg: 15vw;
 
+:root {
+    --padding-x: #{$pd-x-sm};
+}
+
 @mixin padding-x {
-    padding-left: $pd-x-sm;
-    padding-right: $pd-x-sm;
+    padding-left: var(--padding-x);
+    padding-right: var(--padding-x);
 
     @media (min-width: 768px) {
-        padding-left: $pd-x-md;
-        padding-right: $pd-x-md;
+        --padding-x: #{$pd-x-md};
     }
 
     @media (min-width: 1024px) {
-        padding-left: $pd-x-lg;
-        padding-right: $pd-x-lg;
+        --padding-x: #{$pd-x-lg};
     }
 }
 

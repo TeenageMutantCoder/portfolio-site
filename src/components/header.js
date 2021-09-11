@@ -1,11 +1,14 @@
 import React from "react";
 import { Link } from "gatsby";
+
 import Hamburger from "./hamburger";
+import ThemeToggle from "./themeToggle";
 import "./header.scss";
 
 const Header = ({ links }) => {
     return (
         <header>
+            <ThemeToggle />
             <Hamburger />
             <nav>
                 {links.map((link) => (

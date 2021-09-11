@@ -1,7 +1,8 @@
 @use "./hamburger";
 @use "./common";
 
-$header-bg-color: white;
+$header-bg-color: var(--header-bg-color);
+$nav-bg-color: var(--bg-color);
 $nav-link-font-size-sm: 15vw;
 $nav-link-font-size-md: 1.5rem;
 $header-height: 5rem;
@@ -9,10 +10,11 @@ $header-height: 5rem;
 header {
     @include common.padding-x;
     @media (min-width: 768px) {
-        border-bottom: 1px solid black;
+        background: $nav-bg-color;
+        border-bottom: 1px solid var(--border-color);
     }
-
     align-items: center;
+    background: $header-bg-color;
     display: flex;
     height: $header-height;
     left: 0;
@@ -35,7 +37,7 @@ header {
         }
 
         --nav-link-font-size: #{$nav-link-font-size-sm};
-        background: $header-bg-color;
+        background: $nav-bg-color;
         bottom: 0;
         display: none;
         flex: 1;
@@ -58,7 +60,7 @@ header {
                 margin-bottom: 0;
             }
 
-            color: black;
+            color: var(--link-color);
             display: block;
             font-size: var(--nav-link-font-size);
             padding: 1rem;
