@@ -28,6 +28,7 @@ header {
         @media (min-width: 768px) {
             --nav-link-font-size: #{$nav-link-font-size-md};
             align-items: center;
+            background: none;
             display: flex;
             flex-direction: row;
             justify-content: space-between;
