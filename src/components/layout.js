@@ -14,6 +14,7 @@ const Layout = ({ children }) => {
         { name: "Contact", path: "/contact/" },
     ];
     const mainRef = useRef();
+    // Adds simple animation on page load
     useLayoutEffect(() => {
         gsap.from(mainRef.current, {
             opacity: 0.3,
