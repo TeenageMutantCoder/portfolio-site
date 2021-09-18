@@ -1,8 +1,8 @@
 import * as React from "react";
 
-import Layout from "../components/layout";
-import Seo from "../components/seo";
-import ContactSection from "../components/contactSection";
+import Layout from "../components/Layout";
+import Seo from "../components/Seo";
+import ContactSection from "../components/ContactSection";
 
 const ContactPage = () => (
     <Layout>

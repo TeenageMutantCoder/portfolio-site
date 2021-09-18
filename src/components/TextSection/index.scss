@@ -1,0 +1,16 @@
+@use "../common";
+
+.TextSection {
+    @include common.padding-x;
+    margin-bottom: 5rem;
+
+    h2 {
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+    }
+
+    p {
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+    }
+}

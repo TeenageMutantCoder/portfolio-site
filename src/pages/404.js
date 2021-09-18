@@ -4,7 +4,7 @@ import { Link } from "gatsby";
 import Layout from "../components/layout";
 import Seo from "../components/seo";
 
-import "../components/button.scss";
+import "../components/Button";
 
 const NotFoundPage = () => (
     <Layout>

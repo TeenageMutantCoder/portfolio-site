@@ -1,11 +1,11 @@
 import * as React from "react";
 
-import Layout from "../components/layout";
-import Seo from "../components/seo";
-import Hero from "../components/hero";
-import TextSection from "../components/textSection";
-import ImageSection from "../components/imageSection";
-import FeaturedProjects from "../components/featuredProjects";
+import Layout from "../components/Layout";
+import Seo from "../components/Seo";
+import Hero from "../components/Hero";
+import TextSection from "../components/TextSection";
+import ImageSection from "../components/ImageSection";
+import FeaturedProjects from "../components/FeaturedProjects";
 
 import sections from "../data/index";
 

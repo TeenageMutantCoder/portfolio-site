@@ -1,0 +1,42 @@
+@use "../common";
+
+$svg-size-sm: 20vw;
+$svg-size-md: 5rem;
+
+.ImageSection {
+    @include common.padding-x;
+    margin-top: -5rem;
+    margin-bottom: 5rem;
+
+    .images {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+        @media (min-width: 768px) {
+            grid-template-columns: repeat(3, 1fr);
+        }
+
+        @media (min-width: 1024px) {
+            grid-template-columns: repeat(4, 1fr);
+        }
+
+        .image {
+            align-items: center;
+            display: flex;
+            flex: 1;
+            flex-direction: column;
+            justify-content: center;
+            padding: 0.5rem;
+
+            svg {
+                --svg-size: #{$svg-size-sm};
+                height: var(--svg-size);
+                width: var(--svg-size);
+
+                @media (min-width: 768px) {
+                    --svg-size: #{$svg-size-md};
+                }
+            }
+        }
+    }
+}

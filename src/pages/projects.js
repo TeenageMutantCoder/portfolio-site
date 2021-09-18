@@ -1,8 +1,8 @@
 import * as React from "react";
 
-import Layout from "../components/layout";
-import Seo from "../components/seo";
-import ProjectsSection from "../components/projects";
+import Layout from "../components/Layout";
+import Seo from "../components/Seo";
+import ProjectsSection from "../components/Projects";
 
 const ProjectsPage = () => {
     return (
