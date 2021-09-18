@@ -4,6 +4,8 @@
 
 [[plugins]]
     package = "@netlify/plugin-gatsby"
+
+[[plugins]]
     package = "netlify-plugin-submit-sitemap"
         [plugins.inputs]
         # Path to the sitemap URL (optional, default = /sitemap.xml)
@@ -15,10 +17,14 @@
             "bing",
             "yandex"
         ]
+
+[[plugins]]
     package = "@netlify/plugin-lighthouse"
         # optional, deploy the lighthouse report to a path under your site
         [plugins.inputs]
             output_path = "reports/lighthouse.html"
+
+[[plugins]]
     package = "netlify-plugin-a11y"
         [plugins.inputs]
         checkPaths = ['/', '/projects/', '/resume/', '/contact/'] 
