@@ -25,4 +25,4 @@ If you don't feel as though using the live website is enough for you, you can ru
 2. Clone the repository with `git clone https://github.com/TeenageMutantCoder/portfolio-site`
 3. Move into the directory with `cd portfolio-site`
 4. Run `npm install` or `yarn install` (if you don't have yarn installed, you can install it first using `npm install --global yarn`).
-5. Run `npm run start`, `yarn run start`, or `gatsby develop`. All 3 options should do the same thing. Alternatively, you can run the production build with `npm run build && npm run serve`, `yarn run build && yarn run serve`, or `gatsby build && gatsby serve`.
+5. Run `npm run start` or `yarn run start`. Alternatively, you can run the production build with `npm run build && npm run serve` or `yarn run build && yarn run serve`.
