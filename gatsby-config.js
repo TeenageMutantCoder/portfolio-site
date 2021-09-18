@@ -7,6 +7,13 @@ module.exports = {
     },
     plugins: [
         `gatsby-plugin-sass`,
+        {
+            resolve: 'gatsby-plugin-robots-txt',
+            options: {
+              policy: [{ userAgent: '*', allow: '/' }]
+            }
+        },
+        `gatsby-plugin-sitemap`,
         `gatsby-plugin-use-dark-mode`,
         `gatsby-plugin-react-helmet`,
         `gatsby-plugin-image`,
