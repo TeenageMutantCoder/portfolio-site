@@ -1,6 +1,22 @@
 [build]
-command = "npm run build"
-publish = "public/"
+    command = "npm run build"
+    publish = "public/"
 
 [[plugins]]
-package = "@netlify/plugin-gatsby"
+    package = "@netlify/plugin-gatsby"
+    package = "netlify-plugin-submit-sitemap"
+        [plugins.inputs]
+        # Path to the sitemap URL (optional, default = /sitemap.xml)
+        sitemapPath = "/sitemap/sitemap-index.xml"
+
+        # Enabled providers to submit sitemap to (optional, default = 'google', 'bing', 'yandex'). Possible providers are currently only 'google', 'bing', 'yandex'.
+        providers = [
+            "google",
+            "bing",
+            "yandex"
+        ]
+    package = "@netlify/plugin-lighthouse"
+        # optional, deploy the lighthouse report to a path under your site
+        [plugins.inputs]
+            output_path = "reports/lighthouse.html"
+    package = "netlify-plugin-a11y"

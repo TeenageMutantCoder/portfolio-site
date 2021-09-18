@@ -31,6 +31,9 @@
   },
   "devDependencies": {
     "@netlify/plugin-gatsby": "^1.0.3",
+    "@netlify/plugin-lighthouse": "^2.1.2",
+    "netlify-plugin-a11y": "^0.0.12",
+    "netlify-plugin-submit-sitemap": "^0.2.3",
     "prettier": "2.3.2"
   },
   "keywords": [
