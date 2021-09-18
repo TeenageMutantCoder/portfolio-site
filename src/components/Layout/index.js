@@ -26,11 +26,11 @@ const Layout = ({ children }) => {
         });
     });
     return (
-        <>
+        <div className="Layout">
             <Header links={links} />
             <main ref={mainRef}>{children}</main>
             <Footer links={links} />
-        </>
+        </div>
     );
 };
 
