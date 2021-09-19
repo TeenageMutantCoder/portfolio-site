@@ -6,12 +6,13 @@ module.exports = {
         siteUrl: `https://stevon-wright.netlify.app/`,
     },
     plugins: [
+        `gatsby-plugin-netlify`,
         `gatsby-plugin-sass`,
         {
-            resolve: 'gatsby-plugin-robots-txt',
+            resolve: "gatsby-plugin-robots-txt",
             options: {
-              policy: [{ userAgent: '*', allow: '/' }]
-            }
+                policy: [{ userAgent: "*", allow: "/" }],
+            },
         },
         `gatsby-plugin-sitemap`,
         `gatsby-plugin-use-dark-mode`,
