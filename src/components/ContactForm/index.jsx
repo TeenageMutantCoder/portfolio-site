@@ -50,14 +50,13 @@ const ContactForm = ({ setIsSubmitted }) => {
                 ...message,
             }),
         })
-            // On success, redirect to the custom success page using Gatsby's `navigate` helper function
             .then(() => {
+                e.target.reset();
                 navigate("/contact/?submitted=true/");
                 if (typeof setIsSubmitted === "function") {
                     setIsSubmitted(true);
                 }
             })
-            // On error, show the error in an alert
             .catch((e) => alert(e));
     };
 

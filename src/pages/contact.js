@@ -21,7 +21,7 @@ const ContactPage = () => {
     }, [isSubmitted]);
 
     return (
-        <Layout animate={!prevWasSubmitted}>
+        <Layout animate={!(isSubmitted || prevWasSubmitted)}>
             <Seo title="Contact" />
             <h1 className="title">Contact</h1>
             <ContactSection setIsSubmitted={setIsSubmitted} />
