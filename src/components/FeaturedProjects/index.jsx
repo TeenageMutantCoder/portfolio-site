@@ -2,7 +2,7 @@ import React from "react";
 
 import { Link } from "gatsby";
 import Projects from "../Projects";
-import "../Button/";
+import "../Button";
 import "./index.scss";
 
 const FeaturedProjects = (props) => {
