@@ -6,7 +6,7 @@ $btn-color-fg: var(--button-fg-color);
 .Button {
     @include common.hover-transition;
     background: $btn-color-bg;
-    border: 2px solid var(--border-color);
+    border: 2px solid var(--button-border-color);
     color: $btn-color-fg;
     cursor: pointer;
     display: block;
