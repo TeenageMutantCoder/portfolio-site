@@ -3,7 +3,7 @@ import ContactForm from "../ContactForm";
 import Socials from "../Socials";
 import "./index.scss";
 
-const ContactSection = () => {
+const ContactSection = ({ setIsSubmitted }) => {
     return (
         <section className="ContactSection">
             <Socials />
@@ -32,7 +32,7 @@ const ContactSection = () => {
                     GitHub: github.com/TeenageMutantCoder
                 </a>
             </p>
-            <ContactForm />
+            <ContactForm setIsSubmitted={setIsSubmitted} />
         </section>
     );
 };

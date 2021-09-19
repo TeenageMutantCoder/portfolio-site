@@ -9,22 +9,28 @@ import SubmitModal from "../components/SubmitModal";
 
 const ContactPage = () => {
     const [isSubmitted, setIsSubmitted] = useState(false);
+    const [modalIsOpen, setModalIsOpen] = useState(false);
     const [prevWasSubmitted, setPrevWasSubmitted] = useState(false);
     useEffect(() => {
-        if (typeof window === undefined) return;
+        if (typeof window === "undefined") return;
         if (window.location.href.split("/").includes("?submitted=true")) {
-            navigate("/contact");
-            setIsSubmitted(true);
+            navigate("/contact/");
             setPrevWasSubmitted(true);
+            setModalIsOpen(true);
         }
-    }, [isSubmitted, window.location.href]);
+    }, [isSubmitted]);
 
     return (
-        <Layout animate={!(isSubmitted || prevWasSubmitted)}>
+        <Layout animate={!prevWasSubmitted}>
             <Seo title="Contact" />
             <h1 className="title">Contact</h1>
-            <ContactSection />
-            {isSubmitted && <SubmitModal setIsSubmitted={setIsSubmitted} />}
+            <ContactSection setIsSubmitted={setIsSubmitted} />
+            {modalIsOpen && (
+                <SubmitModal
+                    setIsSubmitted={setIsSubmitted}
+                    setModalIsOpen={setModalIsOpen}
+                />
+            )}
         </Layout>
     );
 };

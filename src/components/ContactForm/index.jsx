@@ -4,7 +4,7 @@ import "./index.scss";
 
 import Button from "../Button";
 
-const ContactForm = () => {
+const ContactForm = ({ setIsSubmitted }) => {
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
     const [message, setMessage] = useState("");
@@ -51,7 +51,12 @@ const ContactForm = () => {
             }),
         })
             // On success, redirect to the custom success page using Gatsby's `navigate` helper function
-            .then(() => navigate("/contact/?submitted=true/"))
+            .then(() => {
+                navigate("/contact/?submitted=true/");
+                if (typeof setIsSubmitted === "function") {
+                    setIsSubmitted(true);
+                }
+            })
             // On error, show the error in an alert
             .catch((e) => alert(e));
     };
