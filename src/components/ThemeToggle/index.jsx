@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, forwardRef } from "react";
 import useDarkMode from "use-dark-mode";
 import { FaSun as LightModeIcon } from "@react-icons/all-files/fa/FaSun";
 import { FaMoon as DarkModeIcon } from "@react-icons/all-files/fa/FaMoon";
@@ -13,27 +13,32 @@ export const useLoaded = () => {
     return loaded;
 };
 
-const ThemeToggle = () => {
+const ThemeToggle = forwardRef((props, ref) => {
     const darkMode = useDarkMode(false);
     const loaded = useLoaded();
 
     return (
-        <div className="ThemeToggle">
-            <input
-                type="checkbox"
-                name="theme-toggle"
-                id="theme-toggle"
-                checked={darkMode.value}
-                onChange={() => {
-                    darkMode.toggle();
-                }}
-            />
-            <label htmlFor="theme-toggle">
-                {loaded &&
-                    (darkMode.value ? <DarkModeIcon /> : <LightModeIcon />)}
-            </label>
-        </div>
+        <button
+            ref={ref}
+            type="button"
+            className="ThemeToggle"
+            onPointerDown={(e) => {
+                // Only toggles when user taps or left clicks.
+                if (e.button !== 0) return;
+                darkMode.toggle();
+            }}
+            onKeyDown={(e) => {
+                // Only toggles when user presses enter or space bar
+                if (!["Enter", " "].includes(e.key)) return;
+                darkMode.toggle();
+            }}
+        >
+            <span className="sr-only">
+                {`Switch to ${darkMode.value ? "light" : "dark"} theme`}
+            </span>
+            {loaded && (darkMode.value ? <DarkModeIcon /> : <LightModeIcon />)}
+        </button>
     );
-};
+});
 
 export default ThemeToggle;

@@ -4,7 +4,7 @@ import "./index.scss";
 import Backdrop from "../Backdrop";
 import Button from "../Button";
 
-function SubmitModal({ setIsSubmitted, setModalIsOpen }) {
+const SubmitModal = ({ setIsSubmitted, setModalIsOpen }) => {
     const handleClick = (e) => {
         if (typeof setModalIsOpen === "function") {
             setModalIsOpen(false);
@@ -24,6 +24,5 @@ function SubmitModal({ setIsSubmitted, setModalIsOpen }) {
             </div>
         </Backdrop>
     );
-}
-
+};
 export default SubmitModal;

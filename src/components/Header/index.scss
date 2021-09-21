@@ -5,6 +5,7 @@ $header-bg-color: var(--header-bg-color);
 $nav-bg-color: var(--bg-color);
 $nav-link-font-size-sm: 15vw;
 $nav-link-font-size-md: 1.5rem;
+$nav-link-padding: 1rem;
 $header-height: 5rem;
 
 header {
@@ -32,6 +33,8 @@ header {
             display: flex;
             flex-direction: row;
             justify-content: space-between;
+            margin-left: -$nav-link-padding;
+            margin-right: -$nav-link-padding;
             opacity: 1;
             padding: 0;
             position: static;
@@ -64,7 +67,7 @@ header {
             color: var(--link-color);
             display: block;
             font-size: var(--nav-link-font-size);
-            padding: 1rem;
+            padding: $nav-link-padding;
             text-decoration: none;
 
             &.active {

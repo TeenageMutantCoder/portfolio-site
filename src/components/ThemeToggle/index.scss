@@ -5,29 +5,26 @@ $size: index.$hamburger-size;
 $padding: index.$hamburger-padding;
 
 .ThemeToggle {
+    @include common.hover-transition;
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: block;
+    height: $size;
+    padding: $padding;
+    width: $size;
+    z-index: 1000;
+
     @media (min-width: 768px) {
-        // Moving the header into its original position without ThemeToggle and moving ThemeToggle to right side of header
-        left: calc(100vw - var(--padding-x) - #{$size});
-        transform: translateX(-50%);
-        margin-right: -1 * $size;
-        position: relative;
+        // Moves theme toggle to left of screen
+        left: 0;
+        transform: translateX(50%);
+        position: absolute;
     }
 
-    #theme-toggle {
-        display: none;
-    }
-
-    [for="theme-toggle"] {
-        @include common.hover-transition;
-        cursor: pointer;
-        display: block;
-        height: $size;
-        padding: $padding;
-        width: $size;
-
-        svg {
-            height: 100%;
-            width: 100%;
-        }
+    svg {
+        color: var(--svg-color);
+        height: 100%;
+        width: 100%;
     }
 }
