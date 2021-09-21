@@ -1,7 +1,8 @@
-import React, { forwardRef } from "react";
+import React, { forwardRef, useState } from "react";
 import "./index.scss";
 
 const Hamburger = forwardRef((props, checkboxRef) => {
+    const [isChecked, setIsChecked] = useState(false);
     return (
         <>
             <input
@@ -9,6 +10,8 @@ const Hamburger = forwardRef((props, checkboxRef) => {
                 type="checkbox"
                 id="Hamburger__checkbox"
                 name="Hamburger__checkbox"
+                aria-label="Mobile menu checkbox"
+                aria-hidden
             />
             <button
                 className="Hamburger"
@@ -17,6 +20,7 @@ const Hamburger = forwardRef((props, checkboxRef) => {
                     // Only toggles when user taps or left clicks.
                     if (e.button !== 0) return;
                     checkboxRef.current.checked = !checkboxRef.current.checked;
+                    setIsChecked(!isChecked);
                 }}
                 onKeyDown={(e) => {
                     if (!checkboxRef) return;
@@ -25,9 +29,12 @@ const Hamburger = forwardRef((props, checkboxRef) => {
                     // Prevents scroll when user presses space bar
                     e.preventDefault();
                     checkboxRef.current.checked = !checkboxRef.current.checked;
+                    setIsChecked(!isChecked);
                 }}
             >
-                <span className="sr-only">Open navigation menu</span>
+                <span className="sr-only">{`${
+                    checkboxRef?.current?.checked ? "Close" : "Open"
+                } navigation menu`}</span>
                 <span className="Hamburger__bar"> </span>
                 <span className="Hamburger__bar"> </span>
                 <span className="Hamburger__bar"> </span>
