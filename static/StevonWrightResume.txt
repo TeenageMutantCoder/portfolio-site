@@ -7,10 +7,10 @@ https://linkedin.com/in/stevon-wright   LinkedIn icon
 https://github.com/TeenageMutantCoder   GitHub Logomark 
 
 
-Software Developer looking to enter the field. Has been creating projects and learning software development for about 2 years. Has strong programming fundamentals and the ability to learn independently. Can plan, read, write, and review code. A responsible worker who can communicate and work with a team virtually or face-to-face. Very proficient with computers. Native English speaker who can speak and write in Spanish with limited working capacity. Plays guitar and piano.
+A Software Developer that has more than 2 years of experience building projects with a focus on front-end web development. Has strong programming fundamentals and the ability to learn new things quickly and independently. Can plan, read, write, and review code effectively. A responsible worker who can communicate and work with a team virtually or face-to-face. Very proficient with computers. Native English speaker who can speak and write in Spanish with limited working capacity. Plays guitar and piano.
 Skills
-Languages and frameworks: HTML, CSS, SCSS, JavaScript, React, C++, Python, SQL
-Tools and IDEs: Git, GitHub, Visual Studio, Visual Studio Code, Atom, Adobe Photoshop
+Languages and frameworks: HTML, CSS, SASS/SCSS, JavaScript, React, C++, Python, SQL
+Tools and IDEs: Git, GitHub, Visual Studio, Visual Studio Code, Adobe Photoshop, Postman
 Operating Systems: Microsoft Windows, Linux, Android
 Projects
 Todo - https://sw-todo.netlify.app/
@@ -26,4 +26,4 @@ Graduated with highest honors (summa cum laude) and a cumulative GPA of 4.5. Suc
 Experience
 2019 – present
 Software Developer/Self-employed
-Planned, developed, and deployed front-end applications in more than 2 programming languages. Performed code reviews for 15 new and aspiring software developers online. Researched and fixed more than 100 software bugs. Played an integral part in all parts of the software development life cycle.
+Planned, developed, and deployed front-end applications in more than 2 programming languages. Performed code reviews for 20+ new and aspiring software developers online. Researched and fixed more than 200 software bugs. Played an integral part in all parts of the software development life cycle.

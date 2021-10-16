@@ -12,28 +12,29 @@ const Resume = () => {
             <iframe
                 title="My Resume/CV"
                 src="https://drive.google.com/file/d/1PU5yowoZuFg9fjMt5ny0ETVZWEu4fsbz/preview"
+                allow="autoplay"
             ></iframe>
             <Button
                 type="button"
                 text="Print"
-                onClick={() => printJS("/Resume.pdf")}
+                onClick={() => printJS(`/${resumeFileName}.pdf`)}
             />
             <Button
                 type="link"
                 text="Download as PDF"
-                href="/Resume.pdf"
+                href={`/${resumeFileName}.pdf`}
                 download={resumeFileName}
             />
             <Button
                 type="link"
                 text="Download as DOCX"
-                href="/Resume.docx"
+                href={`/${resumeFileName}.docx`}
                 download={resumeFileName}
             />
             <Button
                 type="link"
                 text="Download as TXT"
-                href="/Resume.txt"
+                href={`/${resumeFileName}.txt`}
                 download={resumeFileName}
             />
         </section>
