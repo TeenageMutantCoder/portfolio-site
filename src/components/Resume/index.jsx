@@ -11,7 +11,7 @@ const Resume = () => {
         <section className="Resume">
             <iframe
                 title="My Resume/CV"
-                src="https://drive.google.com/file/d/1PU5yowoZuFg9fjMt5ny0ETVZWEu4fsbz/preview"
+                src="https://drive.google.com/file/d/1w9gmti9QuAZpGr8KivpQT1O4htyg3bce/preview"
                 allow="autoplay"
             ></iframe>
             <Button
