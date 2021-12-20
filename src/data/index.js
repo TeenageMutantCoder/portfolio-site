@@ -3,10 +3,14 @@ import { AiFillHtml5 as Html } from "@react-icons/all-files/ai/AiFillHtml5";
 import { DiCss3 as Css } from "@react-icons/all-files/di/DiCss3";
 import { DiSass as Sass } from "@react-icons/all-files/di/DiSass";
 import { SiJavascript as Js } from "@react-icons/all-files/si/SiJavascript";
+import { SiTypescript as Ts } from "@react-icons/all-files/si/SiTypescript";
 import { SiPython as Python } from "@react-icons/all-files/si/SiPython";
 import { SiReact as ReactLogo } from "@react-icons/all-files/si/SiReact";
+import { SiExpress as Express } from "react-icons/si";
+import { SiNextDotJs as Next } from "@react-icons/all-files/si/SiNextDotJs";
 import { SiGatsby as Gatsby } from "@react-icons/all-files/si/SiGatsby";
 import { SiCplusplus as Cpp } from "@react-icons/all-files/si/SiCplusplus";
+import { SiMongodb as MongoDb } from "@react-icons/all-files/si/SiMongodb";
 import { SiMysql as MySql } from "@react-icons/all-files/si/SiMysql";
 import { DiSqllite as SqLite3 } from "@react-icons/all-files/di/DiSqllite";
 import { DiGit as Git } from "@react-icons/all-files/di/DiGit";
@@ -19,7 +23,7 @@ const sections = {
     },
     skills: {
         title: "Skills",
-        text: "My expertise lies primarily in front-end web development, although I have some experience in full-stack web development and desktop application development. I generally prefer web development because of the ease of UI creation, software distribution, and deployment. Because of my strong grasp of programming fundamentals, I am able to quickly learn whatever technology I need for a project. Some of my current skills include:",
+        text: "My expertise lies primarily in front-end web development, although I have some experience in full-stack web development and desktop application development. Because of my strong grasp of programming fundamentals, I am able to quickly learn whatever technology I need for a project. Some of my current skills include:",
     },
     skillsIcons: {
         title: "",
@@ -41,6 +45,10 @@ const sections = {
                 image: <Js />,
             },
             {
+                title: "TypeScript",
+                image: <Ts />,
+            },
+            {
                 title: "Python",
                 image: <Python />,
             },
@@ -53,8 +61,24 @@ const sections = {
                 image: <Gatsby />,
             },
             {
+                title: "Express",
+                image: <Express />,
+            },
+            {
+                title: "Next.js",
+                image: <Next />,
+            },
+            {
+                title: "Gatsby",
+                image: <Gatsby />,
+            },
+            {
                 title: "C++",
                 image: <Cpp />,
+            },
+            {
+                title: "MongoDB",
+                image: <MongoDb />,
             },
             {
                 title: "MySQL",

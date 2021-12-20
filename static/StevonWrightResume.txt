@@ -9,16 +9,16 @@ https://github.com/TeenageMutantCoder   GitHub Logomark
 
 A Software Developer that has more than 2 years of experience building projects with a focus on front-end web development using React. Has strong programming fundamentals and the ability and drive to learn new things quickly and independently. Can plan, read, write, and review code effectively. A responsible worker who can communicate well asynchronously and work with a team virtually. Interested in growing into a full-stack development position.
 Skills
-Languages and frameworks: HTML, CSS, SASS, JavaScript, Express, React, Python, SQL
-Tools and IDEs: Git, GitHub, Visual Studio, Visual Studio Code, Adobe Photoshop, Postman, Figma
-Concepts: BEM, Functional Programming, Object-Oriented Programming, Agile (Scrum), Gitflow, Semantic HTML, Accessibility (A11y, ARIA)
+Languages and frameworks: HTML, CSS, SASS, JavaScript, TypeScript, Express, React, Next.js
+Tools and IDEs: Node.js, NPM, Yarn, Git, GitHub, Visual Studio Code, Adobe Photoshop, Postman, Figma
+Concepts: REST APIs, BEM, Functional Programming, Object-Oriented Programming, Agile (Scrum), Gitflow, Semantic HTML, Accessibility (A11y, WAI-ARIA, WCAG)
 Projects
 Todo - https://sw-todo.netlify.app/
-A responsive to-do list application with light/dark mode toggle, drag-and-drop, and persistent storage. Built based on mock-up design specifications from Front End Mentor. Built with React.
+A responsive to-do list web application built based on design mock-up. Built with React.
 N-Body Simulation - https://orbital-sim.netlify.app/
 A three-dimensional N-body simulation built with React, React Router, and BabylonJS.
-Alarm Clock - https://github.com/TeenageMutantCoder/Alarm-Clock/
-A time-keeping program written in Python with user-created alarms stored in an SQLite3 database, a stopwatch, a digital clock, and a timer.
+User Authentication REST API - https://github.com/TeenageMutantCoder/jwt-auth/
+A RESTful API that interacts with a MongoDB database. Built with Express and Mongoose. I am currently refactoring this project to use TypeScript and Next.JS for a full-stack web application idea I have. 
 Education
 June 2021
 High School Diploma/Pine Ridge High School, Deltona, Florida
@@ -26,4 +26,4 @@ Graduated with a cumulative GPA of 4.5, earning both a standard and Cambridge AI
 Experience
 2019 – present
 Software Developer/Self-employed
-Planned, developed, and deployed front-end applications in more than 2 programming languages. Performed code reviews, providing feedback for 20+ new and aspiring software developers online. Diagnosed, researched, and fixed more than 200 software bugs. Played an integral part in all parts of the software development life cycle.
+Planned, developed, and deployed front-end applications in more than 2 programming languages. Performed code reviews, providing feedback for 30+ new and aspiring software developers online. Diagnosed, researched, and fixed more than 200 software bugs. Played an integral part in all parts of the software development life cycle.
