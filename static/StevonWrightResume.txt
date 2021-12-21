@@ -26,4 +26,4 @@ Graduated with a cumulative GPA of 4.5, earning both a standard and Cambridge AI
 Experience
 2019 – present
 Software Developer/Self-employed
-Planned, developed, and deployed front-end applications in more than 2 programming languages. Performed code reviews, providing feedback for 30+ new and aspiring software developers online. Diagnosed, researched, and fixed more than 200 software bugs. Played an integral part in all parts of the software development life cycle.
+Planned, developed, debugged, and deployed front-end web applications for mobile and desktop using HTML, CSS, JavaScript (ES6+), React, and various browser APIs. Ensured cross-browser compatibility, accessibility, and consistent layout through research, audits, and manual testing. Diagnosed, researched, and fixed more than 200 software bugs.
