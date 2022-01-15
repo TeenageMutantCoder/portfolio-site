@@ -6,7 +6,6 @@ import { SiJavascript as Js } from "@react-icons/all-files/si/SiJavascript";
 import { SiTypescript as Ts } from "@react-icons/all-files/si/SiTypescript";
 import { SiPython as Python } from "@react-icons/all-files/si/SiPython";
 import { SiReact as ReactLogo } from "@react-icons/all-files/si/SiReact";
-import { SiExpress as Express } from "react-icons/si";
 import { SiNextDotJs as Next } from "@react-icons/all-files/si/SiNextDotJs";
 import { SiGatsby as Gatsby } from "@react-icons/all-files/si/SiGatsby";
 import { SiCplusplus as Cpp } from "@react-icons/all-files/si/SiCplusplus";
@@ -15,6 +14,7 @@ import { SiMysql as MySql } from "@react-icons/all-files/si/SiMysql";
 import { DiSqllite as SqLite3 } from "@react-icons/all-files/di/DiSqllite";
 import { DiGit as Git } from "@react-icons/all-files/di/DiGit";
 import { AiFillGithub as GitHub } from "@react-icons/all-files/ai/AiFillGithub";
+import { SiExpress as Express, SiCypress as Cypress } from "react-icons/si";
 
 const sections = {
     aboutMe: {
@@ -57,10 +57,6 @@ const sections = {
                 image: <ReactLogo />,
             },
             {
-                title: "Gatsby",
-                image: <Gatsby />,
-            },
-            {
                 title: "Express",
                 image: <Express />,
             },
@@ -87,6 +83,10 @@ const sections = {
             {
                 title: "SQLite3",
                 image: <SqLite3 />,
+            },
+            {
+                title: "Cypress",
+                image: <Cypress />,
             },
             {
                 title: "Git",
