@@ -19,7 +19,7 @@ import { SiExpress as Express, SiCypress as Cypress } from "react-icons/si";
 const sections = {
     aboutMe: {
         title: "About Me",
-        text: "I am a software developer that has been building applications for the last 5 years. I enjoy software development because it allows me to combine my love for technology with my curiosity and interest for problem-solving. Some of my other interests include basketball, videogames, anime, YouTube, guitar, and piano.",
+        text: "I am a software developer that has been building applications for over 2 years. I enjoy software development because it allows me to combine my love for technology with my curiosity and interest for problem-solving. Some of my other interests include basketball, videogames, anime, YouTube, guitar, and piano.",
     },
     skills: {
         title: "Skills",
