@@ -1,3 +1,4 @@
+import spaceTourism from "../images/projects/SpaceTourism.jpg";
 import portfolioSite from "../images/projects/PortfolioSite.jpg";
 import todo from "../images/projects/Todo.jpg";
 import orbitalSim from "../images/projects/OrbitalSim.jpg";
@@ -10,12 +11,23 @@ import ticTacToe from "../images/projects/TicTacToe.jpg";
 
 const projects = [
     {
+        title: "Space Tourism",
+        description:
+            "A responsive website built from a Frontend Mentor Figma design.",
+        techList: "HTML/JSX, Styled Components, TypeScript (React, Gatsby)",
+        links: {
+            website: "https://sw-space-tourism.netlify.app/",
+            repo: "https://github.com/TeenageMutantCoder/space-tourism",
+        },
+        image: spaceTourism,
+    },
+    {
         title: "Portfolio Site",
         description:
             "The website you are currently viewing was designed and made from scratch. I used Figma to make the designs (and to learn to use Figma).",
         techList: "HTML/JSX, SASS, JavaScript (React, Gatsby)",
         links: {
-            website: "https://stevon-wright.netlify.app",
+            website: "https://stevon-wright.netlify.app/",
             repo: "https://github.com/TeenageMutantCoder/portfolio-site",
         },
         image: portfolioSite,
@@ -23,10 +35,10 @@ const projects = [
     {
         title: "Todo",
         description:
-            "A mobile-friendly Todo web application with light/dark mode toggle and persistent storage. User can drag-and-drop todo items to change their order and placement.",
+            "A responsive Todo web application with light/dark mode toggle and persistent storage. User can drag-and-drop todo items to change their order and placement.",
         techList: "HTML/JSX, CSS, JavaScript (React)",
         links: {
-            website: "https://sw-todo.netlify.app",
+            website: "https://sw-todo.netlify.app/",
             repo: "https://github.com/TeenageMutantCoder/todo",
         },
         image: todo,
@@ -49,7 +61,7 @@ const projects = [
             "A website about software development made using Wordpress.",
         techList: "Wordpress",
         links: {
-            website: "https://aboutswe.wordpress.com",
+            website: "https://aboutswe.wordpress.com/",
             repo: null,
         },
         image: aboutSoftwareDevelopment,
