@@ -2,6 +2,7 @@ import React from "react";
 import { AiFillHtml5 as Html } from "@react-icons/all-files/ai/AiFillHtml5";
 import { DiCss3 as Css } from "@react-icons/all-files/di/DiCss3";
 import { DiSass as Sass } from "@react-icons/all-files/di/DiSass";
+import { SiStyledComponents as StyledComponents } from "@react-icons/all-files/si/SiStyledComponents";
 import { SiJavascript as Js } from "@react-icons/all-files/si/SiJavascript";
 import { SiTypescript as Ts } from "@react-icons/all-files/si/SiTypescript";
 import { SiPython as Python } from "@react-icons/all-files/si/SiPython";
@@ -39,6 +40,10 @@ const sections = {
             {
                 title: "SASS",
                 image: <Sass />,
+            },
+            {
+                title: "Styled Components",
+                image: <StyledComponents />,
             },
             {
                 title: "JavaScript",
