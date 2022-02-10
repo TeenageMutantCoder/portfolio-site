@@ -9,16 +9,16 @@ https://github.com/TeenageMutantCoder   GitHub Logomark
 
 A Software Developer that has more than 2 years of experience building projects with a focus on front-end web development using React. Has strong programming fundamentals and the ability and drive to learn new things quickly and independently. Can plan, read, write, and review code effectively. A responsible worker who can communicate well asynchronously and work with a team virtually. Interested in growing into a full-stack development position.
 Skills
-Languages and frameworks: HTML, CSS, SASS, JavaScript, TypeScript, Express, React, Next.js
+Languages and frameworks: HTML, CSS, SASS, Styled Components, JavaScript, TypeScript, Express, React, Gatsby, Next.js, Cypress
 Tools and IDEs: Node.js, NPM, Yarn, Git, GitHub, Visual Studio Code, Adobe Photoshop, Postman, Figma
 Concepts: REST APIs, BEM, Functional Programming, Object-Oriented Programming, Agile (Scrum), Gitflow, Semantic HTML, Accessibility (A11y, WAI-ARIA, WCAG)
 Projects
+Space Tourism - https://sw-space-tourism.netlify.app/
+A responsive website built from a Figma design. Made using Gatsby, TypeScript, and Styled Components.
 Todo - https://sw-todo.netlify.app/
 A responsive to-do list web application built based on design mock-up. Built with React.
-N-Body Simulation - https://orbital-sim.netlify.app/
-A three-dimensional N-body simulation built with React, React Router, and BabylonJS.
 User Authentication REST API - https://github.com/TeenageMutantCoder/jwt-auth/
-A RESTful API that interacts with a MongoDB database. Built with Express and Mongoose. I am currently refactoring this project to use TypeScript and Next.JS for a full-stack web application idea I have. 
+A RESTful API that interacts with a MongoDB database. Built with Express and Mongoose.
 Education
 June 2021
 High School Diploma/Pine Ridge High School, Deltona, Florida
