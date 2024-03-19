@@ -14,7 +14,7 @@ This is my software development portfolio.
 
 ### Live App
 
-Simply visit [https://stevon.devp](https://stevon.dev) to view this website.
+Simply visit [https://stevon.dev](https://stevon.dev) to view this website.
 
 ### From Source
 
