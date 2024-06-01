@@ -2,28 +2,32 @@
 Deltona, Florida 32738   Address icon 
 (386) 279-8877   Phone icon 
 stevon.wright.business@gmail.com   Email icon 
-https://stevon-wright.netlify.app   World Wide Web symbol 
+https://stevon.dev   World Wide Web symbol 
 https://linkedin.com/in/stevon-wright   LinkedIn icon 
 https://github.com/TeenageMutantCoder   GitHub Logomark 
 
 
-A Software Developer that has more than 2 years of experience building projects with a focus on front-end web development using React. Has strong programming fundamentals and the ability and drive to learn new things quickly and independently. Can plan, read, write, and review code effectively. A responsible worker who can communicate well asynchronously and work with a team virtually. Interested in growing into a full-stack development position.
+A Full-Stack Software Developer that has over 2 years of professional experience building customer-facing, cloud-based, B2B SaaS (Software-as-a-Service) products with a focus on front-end web development using React. Proven to have strong leadership qualities as well as the ability and drive to learn new things quickly and independently. Can plan, read, write, and review code effectively. A responsible worker who can communicate well and work remotely with a cross-functional team.
 Skills
-Languages and frameworks: HTML, CSS, SASS, Styled Components, JavaScript, TypeScript, Express, React, Gatsby, Next.js, Cypress
-Tools and IDEs: Node.js, NPM, Yarn, Git, GitHub, Visual Studio Code, Adobe Photoshop, Postman, Figma
-Concepts: REST APIs, BEM, Functional Programming, Object-Oriented Programming, Agile (Scrum), Gitflow, Semantic HTML, Accessibility (A11y, WAI-ARIA, WCAG)
+Languages and frameworks: HTML, CSS, SASS, Styled Components, JavaScript, TypeScript, React, React Native, Next.js, Ruby on Rails, Rspec, Jest, Cypress
+Tools: Node.js, NPM, Yarn, PNPM, Git, GitHub, Adobe Photoshop, Postman, Figma
+Experience
+March 2022 – present
+Software Engineer/Shop-Ware Inc.
+* Worked remotely with agile teams of QA, Designers, Product Owners, and Software Engineers.
+* Primarily worked on the company’s Shop Management System built in React and Ruby-on-Rails.
+* Helped build the MVP for TechApp by Shop-Ware, an Android/iOS app built in React Native.
+* Helped build the MVP for Enterprise Manager, a React web application for repair shop enterprises that want an easier way to manage multishop operations.
+June 2021 – March 2022
+Web Developer/Self-employed
+* Built websites for a local automotive business
+* Created various web applications to further improve technical skills
 Projects
+Social App - https://sw-social-app.vercel.app/
+A full-stack social media web application built using Next.js, TypeScript, TailwindCSS, Prisma, and tRPC.
 Space Tourism - https://sw-space-tourism.netlify.app/
 A responsive website built from a Figma design. Made using Gatsby, TypeScript, and Styled Components.
-Todo - https://sw-todo.netlify.app/
-A responsive to-do list web application built based on design mock-up. Built with React.
-User Authentication REST API - https://github.com/TeenageMutantCoder/jwt-auth/
-A RESTful API that interacts with a MongoDB database. Built with Express and Mongoose.
 Education
 June 2021
 High School Diploma/Pine Ridge High School, Deltona, Florida
-Graduated with a cumulative GPA of 4.5, earning both a standard and Cambridge AICE diploma. 
-Experience
-2019 – present
-Software Developer/Self-employed
-Planned, developed, debugged, and deployed front-end web applications for mobile and desktop using HTML, CSS, JavaScript (ES6+), React, and various browser APIs. Ensured cross-browser compatibility, accessibility, and consistent layout through research, audits, and manual testing. Diagnosed, researched, and fixed more than 200 software bugs.
+Graduated with a cumulative GPA of 4.5, earning both a standard and Cambridge AICE diploma.
