@@ -23,9 +23,9 @@ Web Developer/Self-employed
 * Built websites for a local automotive business
 * Created various web applications to further improve technical skills
 Projects
-Social App - https://sw-social-app.vercel.app/
+Social App - https://social.stevon.dev/
 A full-stack social media web application built using Next.js, TypeScript, TailwindCSS, Prisma, and tRPC.
-Space Tourism - https://sw-space-tourism.netlify.app/
+Space Tourism - https://space.stevon.dev/
 A responsive website built from a Figma design. Made using Gatsby, TypeScript, and Styled Components.
 Education
 June 2021
